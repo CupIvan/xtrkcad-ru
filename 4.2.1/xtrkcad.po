@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: xtrkcad 4.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2008-04-27 08:20+0200\n"
-"PO-Revision-Date: 2015-04-03 21:17+0300\n"
+"PO-Revision-Date: 2015-12-11 14:36+0300\n"
 "Last-Translator: CupIvan <mail@cupivan.ru>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ru_RU\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.8.6\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../bin/ccurve.c:102
@@ -210,8 +210,8 @@ msgstr ""
 #: ../bin/cdraw.c:75 ../bin/cdraw.c:862 ../bin/cgroup.c:962
 #: ../bin/cgroup.c:1009 ../bin/cgroup.c:1024 ../bin/cgroup.c:1063
 #: ../bin/cgroup.c:1089 ../bin/cgroup.c:1148 ../bin/cgroup.c:1592
-#: ../bin/cnote.c:96 ../bin/cprint.c:517 ../bin/cprint.c:942
-#: ../bin/cpull.c:499 ../bin/cpull.c:514 ../bin/cpull.c:516 ../bin/cpull.c:518
+#: ../bin/cnote.c:96 ../bin/cprint.c:517 ../bin/cprint.c:942 ../bin/cpull.c:499
+#: ../bin/cpull.c:514 ../bin/cpull.c:516 ../bin/cpull.c:518
 #: ../bin/cselect.c:669 ../bin/cselect.c:761 ../bin/cselect.c:1234
 #: ../bin/csnap.c:577 ../bin/csnap.c:710 ../bin/cstruct.c:759
 #: ../bin/cstruct.c:768 ../bin/cstruct.c:870 ../bin/ctext.c:152
@@ -221,27 +221,27 @@ msgstr ""
 #: ../bin/cundo.c:154 ../bin/dbitmap.c:65 ../bin/dbitmap.c:122
 #: ../bin/dbitmap.c:200 ../bin/dbitmap.c:235 ../bin/dcar.c:3528
 #: ../bin/dcar.c:3712 ../bin/dcar.c:3716 ../bin/dcar.c:3720 ../bin/dcar.c:3725
-#: ../bin/dcar.c:4039 ../bin/dcar.c:4150 ../bin/dcar.c:4528
-#: ../bin/dcmpnd.c:390 ../bin/dcmpnd.c:401 ../bin/dcmpnd.c:535
-#: ../bin/dcustmgm.c:185 ../bin/dcustmgm.c:191 ../bin/dcustmgm.c:200
-#: ../bin/dcustmgm.c:213 ../bin/dease.c:220 ../bin/dlayer.c:199
-#: ../bin/dlayer.c:216 ../bin/dlayer.c:643 ../bin/dlayer.c:648
-#: ../bin/doption.c:150 ../bin/doption.c:250 ../bin/doption.c:332
-#: ../bin/doption.c:481 ../bin/doption.c:492 ../bin/doption.c:558
-#: ../bin/dprmfile.c:87 ../bin/dprmfile.c:101 ../bin/dprmfile.c:114
-#: ../bin/dprmfile.c:156 ../bin/dprmfile.c:431 ../bin/draw.c:2188
-#: ../bin/fileio.c:599 ../bin/fileio.c:668 ../bin/fileio.c:779
-#: ../bin/fileio.c:781 ../bin/fileio.c:786 ../bin/fileio.c:946
-#: ../bin/macro.c:932 ../bin/macro.c:936 ../bin/macro.c:1013
-#: ../bin/macro.c:1119 ../bin/macro.c:1347 ../bin/macro.c:1363
-#: ../bin/misc.c:300 ../bin/misc.c:350 ../bin/misc.c:1682 ../bin/misc.c:1853
-#: ../bin/misc.c:1877 ../bin/misc.c:1941 ../bin/misc.c:2493 ../bin/misc.c:2521
-#: ../bin/misc.org.c:300 ../bin/misc.org.c:350 ../bin/misc.org.c:1682
-#: ../bin/misc.org.c:1853 ../bin/misc.org.c:1877 ../bin/misc.org.c:1941
-#: ../bin/misc.org.c:2505 ../bin/misc.org.c:2533 ../bin/misc2.c:412
-#: ../bin/param.c:1798 ../bin/param.c:1922 ../bin/param.c:1925
-#: ../bin/param.c:2047 ../bin/param.c:2053 ../bin/smalldlg.c:89
-#: ../bin/tease.c:1034 ../bin/track.c:1273 ../wlib/gtklib/gtkfont.c:417
+#: ../bin/dcar.c:4039 ../bin/dcar.c:4150 ../bin/dcar.c:4528 ../bin/dcmpnd.c:390
+#: ../bin/dcmpnd.c:401 ../bin/dcmpnd.c:535 ../bin/dcustmgm.c:185
+#: ../bin/dcustmgm.c:191 ../bin/dcustmgm.c:200 ../bin/dcustmgm.c:213
+#: ../bin/dease.c:220 ../bin/dlayer.c:199 ../bin/dlayer.c:216
+#: ../bin/dlayer.c:643 ../bin/dlayer.c:648 ../bin/doption.c:150
+#: ../bin/doption.c:250 ../bin/doption.c:332 ../bin/doption.c:481
+#: ../bin/doption.c:492 ../bin/doption.c:558 ../bin/dprmfile.c:87
+#: ../bin/dprmfile.c:101 ../bin/dprmfile.c:114 ../bin/dprmfile.c:156
+#: ../bin/dprmfile.c:431 ../bin/draw.c:2188 ../bin/fileio.c:599
+#: ../bin/fileio.c:668 ../bin/fileio.c:779 ../bin/fileio.c:781
+#: ../bin/fileio.c:786 ../bin/fileio.c:946 ../bin/macro.c:932
+#: ../bin/macro.c:936 ../bin/macro.c:1013 ../bin/macro.c:1119
+#: ../bin/macro.c:1347 ../bin/macro.c:1363 ../bin/misc.c:300 ../bin/misc.c:350
+#: ../bin/misc.c:1682 ../bin/misc.c:1853 ../bin/misc.c:1877 ../bin/misc.c:1941
+#: ../bin/misc.c:2493 ../bin/misc.c:2521 ../bin/misc.org.c:300
+#: ../bin/misc.org.c:350 ../bin/misc.org.c:1682 ../bin/misc.org.c:1853
+#: ../bin/misc.org.c:1877 ../bin/misc.org.c:1941 ../bin/misc.org.c:2505
+#: ../bin/misc.org.c:2533 ../bin/misc2.c:412 ../bin/param.c:1798
+#: ../bin/param.c:1922 ../bin/param.c:1925 ../bin/param.c:2047
+#: ../bin/param.c:2053 ../bin/smalldlg.c:89 ../bin/tease.c:1034
+#: ../bin/track.c:1273 ../wlib/gtklib/gtkfont.c:417
 #: ../wlib/gtklib/psprint.c:829 ../wlib/gtklib/psprint.c:840
 #: ../wlib/gtklib/psprint.c:853 ../wlib/gtklib/psprint.c:1088
 #: ../wlib/gtklib/psprint.c:1094 ../wlib/gtklib/psprint.c:1116
@@ -357,8 +357,8 @@ msgstr ""
 msgid "Text"
 msgstr ""
 
-#: ../bin/cdraw.c:202 ../bin/cmisc.c:114 ../bin/tcurve.c:351
-#: ../bin/tease.c:508 ../bin/tstraigh.c:83
+#: ../bin/cdraw.c:202 ../bin/cmisc.c:114 ../bin/tcurve.c:351 ../bin/tease.c:508
+#: ../bin/tstraigh.c:83
 msgid "Pivot"
 msgstr ""
 
@@ -624,17 +624,17 @@ msgstr ""
 
 #: ../bin/cdraw.c:1066
 msgid "Draw Shapes"
-msgstr ""
+msgstr "Рисовать фигуры"
 
 #: ../bin/cdraw.c:1144
 msgid "Draw"
-msgstr ""
+msgstr "Рисовать"
 
 #: ../bin/celev.c:44 ../bin/cprofile.c:1355 ../bin/csplit.c:105
 #: ../bin/csplit.c:110 ../bin/dease.c:63 ../bin/doption.c:192
 #: ../bin/doption.c:193
 msgid "None"
-msgstr ""
+msgstr "Нет"
 
 #: ../bin/celev.c:44
 msgid "Defined"
@@ -650,12 +650,12 @@ msgstr ""
 
 #: ../bin/celev.c:45
 msgid "Station"
-msgstr ""
+msgstr "Станция"
 
 #: ../bin/celev.c:45 ../bin/cprofile.c:1354 ../bin/dcmpnd.c:70
 #: ../bin/misc.c:2435 ../bin/misc.org.c:2447
 msgid "Ignore"
-msgstr ""
+msgstr "Игнорировать"
 
 #: ../bin/celev.c:123 ../bin/celev.c:168
 msgid "There are no reachable Defined Elevations"
@@ -679,28 +679,28 @@ msgstr ""
 #: ../bin/celev.c:385
 #, c-format
 msgid "Undefined"
-msgstr ""
+msgstr "Неопределено"
 
 #: ../bin/celev.c:407 ../bin/celev.c:473
 msgid "Elevation"
-msgstr ""
+msgstr "Подъем"
 
 #: ../bin/celev.c:407 ../bin/cmisc.c:309 ../bin/cprofile.c:1255
 #: ../bin/dcustmgm.c:344 ../bin/dlayer.c:820 ../bin/dpricels.c:155
 msgid "Done"
-msgstr ""
+msgstr "ОК"
 
 #: ../bin/celev.c:419
 msgid "Select End-Point"
-msgstr ""
+msgstr "Выбрать конечную точку"
 
 #: ../bin/celev.c:435 ../bin/csplit.c:90 ../bin/csplit.c:153
 msgid "Split Track"
-msgstr ""
+msgstr "Разделить трек"
 
 #: ../bin/cgroup.c:576
 msgid "Ungroup Object"
-msgstr ""
+msgstr "Разгруппировать объект"
 
 #: ../bin/cgroup.c:588
 #, c-format
@@ -713,16 +713,15 @@ msgstr ""
 
 #: ../bin/cgroup.c:599
 msgid "Replace with new group?"
-msgstr ""
+msgstr "Заменить новой группой?"
 
 #: ../bin/cgroup.c:604 ../bin/compound.c:519 ../bin/cstruct.c:62
 #: ../bin/ctodesgn.c:140 ../bin/ctodesgn.c:1760 ../bin/cturnout.c:68
-#: ../bin/dcar.c:1933 ../bin/dcar.c:4070 ../bin/dcar.c:4075
-#: ../bin/dcmpnd.c:449 ../bin/dcustmgm.c:45
-#: ../../../../build/app/bin/bllnhlp.c:324
+#: ../bin/dcar.c:1933 ../bin/dcar.c:4070 ../bin/dcar.c:4075 ../bin/dcmpnd.c:449
+#: ../bin/dcustmgm.c:45 ../../../../build/app/bin/bllnhlp.c:324
 #: ../../../../build/app/bin/bllnhlp.c:493
 msgid "Manufacturer"
-msgstr ""
+msgstr "Производитель"
 
 #: ../bin/cgroup.c:605 ../bin/cmisc.c:309 ../bin/cstruct.c:62
 #: ../bin/ctodesgn.c:1761 ../bin/ctodesgn.c:1762 ../bin/ctrain.c:175
@@ -730,7 +729,7 @@ msgstr ""
 #: ../bin/dcar.c:4076 ../bin/dcmpnd.c:450 ../bin/dcustmgm.c:46
 #: ../../../../build/app/bin/bllnhlp.c:325
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 #: ../bin/cgroup.c:606 ../bin/dcmpnd.c:451
 msgid "#"
@@ -1060,7 +1059,7 @@ msgstr ""
 
 #: ../bin/cprint.c:115
 msgid "Height"
-msgstr ""
+msgstr "Высота"
 
 #: ../bin/cprint.c:116
 msgid "Snap Shot"
@@ -1076,7 +1075,7 @@ msgstr ""
 
 #: ../bin/cprint.c:131 ../bin/ctrain.c:174 ../bin/dcar.c:1972
 msgid "Width"
-msgstr ""
+msgstr "Ширина"
 
 #: ../bin/cprint.c:133 ../bin/csnap.c:535
 msgid "Y"
@@ -1084,16 +1083,16 @@ msgstr ""
 
 #: ../bin/cprint.c:134 ../bin/dcar.c:1953
 msgid "Reset"
-msgstr ""
+msgstr "Сбросить"
 
 #: ../bin/cprint.c:136
 msgid "Setup"
-msgstr ""
+msgstr "Установить"
 
 #: ../bin/cprint.c:137 ../bin/cprofile.c:548 ../bin/misc.c:580
 #: ../bin/misc.org.c:580
 msgid "Clear"
-msgstr ""
+msgstr "Очистить"
 
 #: ../bin/cprint.c:139 ../bin/cprint.c:615
 msgid "0 pages"
@@ -1208,7 +1207,7 @@ msgstr ""
 
 #: ../bin/cruler.c:141 ../../../../build/app/i18n/custmsg.h:51
 msgid "Ruler"
-msgstr ""
+msgstr "Линейка"
 
 #: ../bin/cselect.c:305
 msgid "Change Track Width"
@@ -1241,7 +1240,7 @@ msgstr ""
 #: ../bin/cselect.c:551 ../bin/dcar.c:4070 ../bin/dcar.c:4075
 #: ../bin/dcustmgm.c:46 ../bin/doption.c:106
 msgid "Scale"
-msgstr ""
+msgstr "Масштаб"
 
 #: ../bin/cselect.c:551 ../bin/cselect.c:576
 msgid "Ratio"
@@ -1249,7 +1248,7 @@ msgstr ""
 
 #: ../bin/cselect.c:560
 msgid "Do not resize track"
-msgstr ""
+msgstr "Не изменять размер трека"
 
 #: ../bin/cselect.c:564
 msgid "Rescale by:"
@@ -1257,19 +1256,19 @@ msgstr ""
 
 #: ../bin/cselect.c:566
 msgid "From:"
-msgstr ""
+msgstr "От:"
 
 #: ../bin/cselect.c:570
 msgid "To: "
-msgstr ""
+msgstr "До:"
 
 #: ../bin/cselect.c:635
 msgid "Rescale Tracks"
-msgstr ""
+msgstr "Перемасштабировать треки"
 
 #: ../bin/cselect.c:761 ../../../../build/app/i18n/custmsg.h:47
 msgid "Rescale"
-msgstr ""
+msgstr "Перемасштабировать"
 
 #: ../bin/cselect.c:787
 msgid "Draw moving track normally"
@@ -1739,8 +1738,7 @@ msgstr ""
 msgid "%s %s Designer"
 msgstr ""
 
-#: ../bin/ctrain.c:170 ../bin/dcar.c:1986 ../bin/dcar.c:4070
-#: ../bin/dcar.c:4075
+#: ../bin/ctrain.c:170 ../bin/dcar.c:1986 ../bin/dcar.c:4070 ../bin/dcar.c:4075
 msgid "Index"
 msgstr ""
 
@@ -2083,16 +2081,16 @@ msgid ""
 "%s"
 msgstr ""
 
-#: ../bin/dbench.c:142 ../bin/dcar.c:4225 ../bin/dcar.c:4409
-#: ../bin/dcar.c:4419 ../bin/dcar.c:4466 ../bin/dcar.c:4473 ../bin/dcar.c:4491
-#: ../bin/dcar.c:4504 ../bin/dcar.c:4509 ../bin/dcar.c:4538 ../bin/dcar.c:4699
-#: ../bin/fileio.c:240 ../bin/fileio.c:528 ../bin/fileio.c:646
-#: ../bin/fileio.c:739 ../bin/fileio.c:926 ../bin/fileio.c:1202
-#: ../bin/fileio.c:1338 ../bin/fileio.c:1421 ../bin/fileio.c:1461
-#: ../bin/macro.c:163 ../bin/macro.c:831 ../bin/macro.c:847
-#: ../bin/macro.c:1150 ../bin/param.c:2040 ../bin/track.c:917
-#: ../bin/track.c:1259 ../bin/track.c:1549 ../bin/track.c:1553
-#: ../bin/track.c:1573 ../bin/track.c:1635 ../wlib/gtklib/gtkfont.c:103
+#: ../bin/dbench.c:142 ../bin/dcar.c:4225 ../bin/dcar.c:4409 ../bin/dcar.c:4419
+#: ../bin/dcar.c:4466 ../bin/dcar.c:4473 ../bin/dcar.c:4491 ../bin/dcar.c:4504
+#: ../bin/dcar.c:4509 ../bin/dcar.c:4538 ../bin/dcar.c:4699 ../bin/fileio.c:240
+#: ../bin/fileio.c:528 ../bin/fileio.c:646 ../bin/fileio.c:739
+#: ../bin/fileio.c:926 ../bin/fileio.c:1202 ../bin/fileio.c:1338
+#: ../bin/fileio.c:1421 ../bin/fileio.c:1461 ../bin/macro.c:163
+#: ../bin/macro.c:831 ../bin/macro.c:847 ../bin/macro.c:1150
+#: ../bin/param.c:2040 ../bin/track.c:917 ../bin/track.c:1259
+#: ../bin/track.c:1549 ../bin/track.c:1553 ../bin/track.c:1573
+#: ../bin/track.c:1635 ../wlib/gtklib/gtkfont.c:103
 #: ../wlib/gtklib/gtkfont.c:161 ../wlib/gtklib/gtkfont.c:333
 #: ../wlib/gtklib/gtkfont.c:337 ../wlib/gtklib/gtkfont.c:434
 #: ../wlib/gtklib/wpref.c:223 ../wlib/gtklib/wpref.c:230
@@ -2387,8 +2385,7 @@ msgstr ""
 msgid "Update %s Scale Car"
 msgstr ""
 
-#: ../bin/dcar.c:2822 ../bin/dcar.c:2831 ../bin/dcar.c:2840
-#: ../bin/dcmpnd.c:168
+#: ../bin/dcar.c:2822 ../bin/dcar.c:2831 ../bin/dcar.c:2840 ../bin/dcmpnd.c:168
 msgid "Update"
 msgstr ""
 

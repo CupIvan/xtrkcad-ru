@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xtrkcad 4.2.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-14 08:47+0100\n"
-"PO-Revision-Date: 2015-11-23 21:12+0300\n"
+"PO-Revision-Date: 2015-12-11 14:57+0300\n"
 "Last-Translator: CupIvan <mail@cupivan.ru>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -361,7 +361,7 @@ msgstr ""
 #: ../bin/cprofile.c:1355 ../bin/csplit.c:105 ../bin/csplit.c:110
 #: ../bin/dease.c:63
 msgid "None"
-msgstr ""
+msgstr "Нет"
 
 #: ../bin/celev.c:44
 msgid "Defined"
@@ -377,12 +377,12 @@ msgstr ""
 
 #: ../bin/celev.c:45
 msgid "Station"
-msgstr ""
+msgstr "Станция"
 
 #: ../bin/celev.c:45 ../bin/cprofile.c:1354 ../bin/misc.c:2394
 #: ../bin/dcmpnd.c:68
 msgid "Ignore"
-msgstr ""
+msgstr "Игнорировать"
 
 #: ../bin/celev.c:123 ../bin/celev.c:168
 msgid "There are no reachable Defined Elevations"
@@ -406,28 +406,28 @@ msgstr ""
 #: ../bin/celev.c:385
 #, c-format
 msgid "Undefined"
-msgstr ""
+msgstr "Неопределено"
 
 #: ../bin/celev.c:407 ../bin/celev.c:473
 msgid "Elevation"
-msgstr ""
+msgstr "Подъем"
 
 #: ../bin/celev.c:407 ../bin/cprofile.c:1255 ../bin/dcustmgm.c:350
 #: ../bin/dpricels.c:155 ../bin/dlayer.c:850 ../bin/cmisc.c:306
 msgid "Done"
-msgstr ""
+msgstr "ОК"
 
 #: ../bin/celev.c:419
 msgid "Select End-Point"
-msgstr ""
+msgstr "Выбрать конечную точку"
 
 #: ../bin/celev.c:435 ../bin/csplit.c:90 ../bin/csplit.c:153
 msgid "Split Track"
-msgstr ""
+msgstr "Разделить трек"
 
 #: ../bin/cgroup.c:576
 msgid "Ungroup Object"
-msgstr ""
+msgstr "Разгруппировать объект"
 
 #: ../bin/cgroup.c:588
 #, c-format
@@ -440,7 +440,7 @@ msgstr ""
 
 #: ../bin/cgroup.c:599
 msgid "Replace with new group?"
-msgstr ""
+msgstr "Заменить новой группой?"
 
 #: ../bin/cgroup.c:604 ../bin/cturnout.c:69 ../bin/dcustmgm.c:45
 #: ../bin/compound.c:521 ../bin/cstruct.c:64 ../bin/dcmpnd.c:444
@@ -449,7 +449,7 @@ msgstr ""
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:333
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:502
 msgid "Manufacturer"
-msgstr ""
+msgstr "Производитель"
 
 #: ../bin/cgroup.c:605 ../bin/cturnout.c:69 ../bin/dcustmgm.c:46
 #: ../bin/ctrain.c:173 ../bin/cstruct.c:64 ../bin/denum.c:177
@@ -458,7 +458,7 @@ msgstr ""
 #: ../bin/dcar.c:4073 ../bin/dcar.c:4078
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:334
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 #: ../bin/cgroup.c:606 ../bin/dcmpnd.c:446
 msgid "#"
@@ -621,7 +621,7 @@ msgstr ""
 #: ../bin/doption.c:103 ../bin/dcustmgm.c:46 ../bin/cselect.c:552
 #: ../bin/dcar.c:4072 ../bin/dcar.c:4077
 msgid "Scale"
-msgstr ""
+msgstr "Масштаб"
 
 #: ../bin/doption.c:104
 msgid "     Gauge"
@@ -1053,7 +1053,7 @@ msgstr ""
 
 #: ../bin/doption.c:552 ../bin/csnap.c:711
 msgid "Snap Grid"
-msgstr ""
+msgstr "Настройки сетки"
 
 #: ../bin/doption.c:553
 msgid "Marker"
@@ -1189,7 +1189,7 @@ msgstr ""
 
 #: ../bin/cprint.c:114
 msgid "Height"
-msgstr ""
+msgstr "Высота"
 
 #: ../bin/cprint.c:115
 msgid "Snap Shot"
@@ -1205,7 +1205,7 @@ msgstr ""
 
 #: ../bin/cprint.c:130 ../bin/ctrain.c:172 ../bin/dcar.c:1974
 msgid "Width"
-msgstr ""
+msgstr "Ширина"
 
 #: ../bin/cprint.c:131 ../bin/cturntbl.c:240 ../bin/tease.c:502
 #: ../bin/compound.c:519 ../bin/cdraw.c:204
@@ -1218,7 +1218,7 @@ msgstr ""
 
 #: ../bin/cprint.c:133 ../bin/dcar.c:1955
 msgid "Reset"
-msgstr ""
+msgstr "Сбросить"
 
 #: ../bin/cprint.c:134 ../bin/tease.c:503 ../bin/compound.c:520
 #: ../bin/ctrain.c:170 ../bin/tstraigh.c:82 ../bin/cdraw.c:195
@@ -1232,11 +1232,11 @@ msgstr ""
 
 #: ../bin/cprint.c:135
 msgid "Setup"
-msgstr ""
+msgstr "Установить"
 
 #: ../bin/cprint.c:136 ../bin/cprofile.c:548 ../bin/misc.c:585
 msgid "Clear"
-msgstr ""
+msgstr "Очистить"
 
 #: ../bin/cprint.c:138 ../bin/cprint.c:618
 msgid "0 pages"
@@ -1708,7 +1708,7 @@ msgstr ""
 #: ../bin/misc.c:1100 ../wlib/gtklib/psprint.c:976
 #: ../wlib/gtklib/psprint.c:1477 ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:521
 msgid "Cancel"
-msgstr ""
+msgstr "Отмена"
 
 #: ../bin/dbitmap.c:210
 msgid "Save Bitmap"
@@ -2347,7 +2347,7 @@ msgstr ""
 
 #: ../bin/param.c:2611
 msgid "Help"
-msgstr ""
+msgstr "Помощь"
 
 #: ../bin/compound.c:524
 msgid "# End Pt"
@@ -2400,7 +2400,7 @@ msgstr ""
 
 #: ../bin/cselect.c:561
 msgid "Do not resize track"
-msgstr ""
+msgstr "Не изменять размер трека"
 
 #: ../bin/cselect.c:565
 msgid "Rescale by:"
@@ -2408,7 +2408,7 @@ msgstr ""
 
 #: ../bin/cselect.c:567
 msgid "From:"
-msgstr ""
+msgstr "От:"
 
 #: ../bin/cselect.c:571
 msgid "To: "
@@ -2416,11 +2416,11 @@ msgstr ""
 
 #: ../bin/cselect.c:636
 msgid "Rescale Tracks"
-msgstr ""
+msgstr "Перемасштабировать треки"
 
 #: ../bin/cselect.c:767 ../../../build/xtc_4-2-2/app/i18n/custmsg.h:47
 msgid "Rescale"
-msgstr ""
+msgstr "Перемасштабировать"
 
 #: ../bin/cselect.c:794
 msgid "Draw moving track normally"
@@ -2542,31 +2542,31 @@ msgstr ""
 
 #: ../bin/csnap.c:517
 msgid "Horz"
-msgstr ""
+msgstr "Столбцы"
 
 #: ../bin/csnap.c:519
 msgid "Spacing"
-msgstr ""
+msgstr "Размер"
 
 #: ../bin/csnap.c:521
 msgid "Divisions"
-msgstr ""
+msgstr "Ячеек"
 
 #: ../bin/csnap.c:524
 msgid "Enable"
-msgstr ""
+msgstr "Включено"
 
 #: ../bin/csnap.c:525
 msgid "Vert"
-msgstr ""
+msgstr "Строки"
 
 #: ../bin/csnap.c:538
 msgid "A"
-msgstr ""
+msgstr "Угол"
 
 #: ../bin/csnap.c:541
 msgid "Show"
-msgstr ""
+msgstr "Показывать"
 
 #: ../bin/csnap.c:796
 msgid "Change Grid..."
@@ -3063,7 +3063,7 @@ msgstr "&Сохранить как..."
 
 #: ../bin/misc.c:2087
 msgid "Revert"
-msgstr "Очистить изменения"
+msgstr "Сбросить изменения"
 
 #: ../bin/misc.c:2089
 msgid "P&rint Setup ..."
@@ -3478,7 +3478,7 @@ msgstr ""
 
 #: ../bin/cruler.c:146 ../../../build/xtc_4-2-2/app/i18n/custmsg.h:51
 msgid "Ruler"
-msgstr ""
+msgstr "Линейка"
 
 #: ../bin/cmodify.c:83
 msgid "Select track to modify"
@@ -3972,11 +3972,11 @@ msgstr ""
 
 #: ../bin/cdraw.c:1074
 msgid "Draw Shapes"
-msgstr ""
+msgstr "Рисовать фигуры"
 
 #: ../bin/cdraw.c:1152
 msgid "Draw"
-msgstr ""
+msgstr "Рисовать"
 
 #: ../bin/cmisc.c:54
 msgid "Middle"
@@ -6668,27 +6668,27 @@ msgstr ""
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:322
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:325
 msgid "Spacing between major grid lines"
-msgstr ""
+msgstr "Расстояние между главными линиями сетки"
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:323
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:326
 msgid "Allows the spacing to be subdivided"
-msgstr ""
+msgstr "Дополнительная разбивка сетки"
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:324
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:327
 msgid "Specifies if positions are snaped in this direction"
-msgstr ""
+msgstr "Включите, чтобы курсор прилипал к сетке"
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:328
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:329
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:330
 msgid "Shows the origin and angle of the grid"
-msgstr ""
+msgstr "Отступы и угол поворота сетки"
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:331
 msgid "Specifies if the grid is shown"
-msgstr ""
+msgstr "Включите, чтобы отображать сетку"
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:332
 msgid "Completes the grid specification"
