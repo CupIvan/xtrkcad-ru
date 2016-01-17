@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xtrkcad 4.2.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-11-14 08:47+0100\n"
-"PO-Revision-Date: 2015-12-11 14:57+0300\n"
+"PO-Revision-Date: 2016-01-17 13:15+0300\n"
 "Last-Translator: CupIvan <mail@cupivan.ru>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -17,7 +17,7 @@ msgstr ""
 #: ../bin/cblock.c:99 ../bin/cblock.c:134 ../bin/cswitchmotor.c:79
 #: ../bin/cswitchmotor.c:139 ../bin/dlayer.c:319 ../bin/compound.c:522
 msgid "Name"
-msgstr ""
+msgstr "Название"
 
 #: ../bin/cblock.c:100 ../bin/cblock.c:135
 msgid "Script"
@@ -34,7 +34,7 @@ msgstr ""
 #: ../bin/ctodesgn.c:401 ../bin/ctodesgn.c:421 ../bin/ctodesgn.c:441
 #: ../bin/ctodesgn.c:479 ../bin/ctodesgn.c:498 ../bin/ctodesgn.c:499
 msgid "Length"
-msgstr ""
+msgstr "Длина"
 
 #: ../bin/cblock.c:137 ../bin/tease.c:498 ../bin/compound.c:514
 #: ../bin/tcurve.c:342 ../bin/tstraigh.c:77 ../bin/cdraw.c:190
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../bin/cblock.c:163
 msgid "Change Block"
-msgstr ""
+msgstr "Изменить блок"
 
 #: ../bin/cblock.c:208 ../bin/cswitchmotor.c:221 ../bin/compound.c:691
 #, c-format
@@ -58,7 +58,7 @@ msgstr ""
 #: ../bin/cblock.c:228 ../bin/cblock.c:642
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:20
 msgid "Block"
-msgstr ""
+msgstr "Блок"
 
 #: ../bin/cblock.c:443 ../bin/cblock.c:462 ../bin/cblock.c:470
 #: ../bin/cblock.c:526 ../bin/cgroup.c:962 ../bin/cgroup.c:1009
@@ -110,7 +110,7 @@ msgstr ""
 #: ../bin/cblock.c:475 ../bin/cblock.c:526 ../bin/cblock.c:643
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:17
 msgid "Create Block"
-msgstr ""
+msgstr "Создать блок"
 
 #: ../bin/cblock.c:508
 msgid "Non track object skipped!"
@@ -122,11 +122,11 @@ msgstr ""
 
 #: ../bin/cblock.c:555 ../bin/cblock.c:587
 msgid "Select a track"
-msgstr ""
+msgstr "Выберите трек"
 
 #: ../bin/cblock.c:564 ../bin/cblock.c:595
 msgid "Not a block!"
-msgstr ""
+msgstr "Это не блок!"
 
 #: ../bin/cblock.c:600
 #, c-format
@@ -151,96 +151,96 @@ msgstr "Да"
 #: ../bin/dcar.c:4592 ../bin/track.c:1313 ../bin/track.c:1410
 #: ../bin/track.c:1424
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 #: ../bin/cblock.c:601 ../bin/cblock.c:645
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:18
 msgid "Delete Block"
-msgstr ""
+msgstr "Удалить блок"
 
 #: ../bin/cblock.c:642
 msgid "Blocks"
-msgstr ""
+msgstr "Блоки"
 
 #: ../bin/cblock.c:644 ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:19
 msgid "Edit Block"
-msgstr ""
+msgstr "Редактировать блок"
 
 #: ../bin/ccurve.c:102
 msgid "Drag from End-Point in direction of curve"
-msgstr ""
+msgstr "Тащите из конечной точки по направлению к кривой"
 
 #: ../bin/ccurve.c:105 ../bin/ccurve.c:138
 msgid "Drag from End-Point to Center"
-msgstr ""
+msgstr "Тащите из конечной точки к центру"
 
 #: ../bin/ccurve.c:108 ../bin/ccurve.c:138
 msgid "Drag from Center to End-Point"
-msgstr ""
+msgstr "Тащите из центра к конечной точке"
 
 #: ../bin/ccurve.c:111 ../bin/ccurve.c:144
 msgid "Drag to other end of chord"
-msgstr ""
+msgstr "Тащите к другому концу хорды"
 
 #: ../bin/ccurve.c:128 ../bin/chndldto.c:91
 msgid "Drag to set angle"
-msgstr ""
+msgstr "Тащите для установки угла"
 
 #: ../bin/ccurve.c:156
 #, c-format
 msgid "Angle=%0.3f"
-msgstr ""
+msgstr "Угол=%0.3f"
 
 #: ../bin/ccurve.c:160 ../bin/ccurve.c:166
 #, c-format
 msgid "Radius=%s Angle=%0.3f"
-msgstr ""
+msgstr "Радиус=%s Угол=%0.3f"
 
 #: ../bin/ccurve.c:172
 #, c-format
 msgid "Length=%s Angle=%0.3f"
-msgstr ""
+msgstr "Длина=%s Угол=%0.3f"
 
 #: ../bin/ccurve.c:202 ../bin/ccurve.c:303 ../bin/drawgeom.c:374
 msgid "Drag on Red arrows to adjust curve"
-msgstr ""
+msgstr "Тащите на красные стрелки для изменения кривой"
 
 #: ../bin/ccurve.c:259 ../bin/cjoin.c:208 ../bin/cturntbl.c:564
 #: ../bin/cmodify.c:259
 #, c-format
 msgid "Straight Track: Length=%s Angle=%0.3f"
-msgstr ""
+msgstr "Прямой трек: Длина=%s Угол=%0.3f"
 
 #: ../bin/ccurve.c:264 ../bin/drawgeom.c:297 ../bin/cmodify.c:264
 #: ../wlib/gtklib/gtkhelp.c:519
 msgid "Back"
-msgstr ""
+msgstr "Назад"
 
 #: ../bin/ccurve.c:282
 #, c-format
 msgid "Curved Track: Radius=%s Angle=%0.3f Length=%s"
-msgstr ""
+msgstr "Кривой трек: Радиус=%s Угол=%0.3f Длина=%s"
 
 #: ../bin/ccurve.c:314 ../bin/cstraigh.c:83
 msgid "Create Straight Track"
-msgstr ""
+msgstr "Добавить прямой трек"
 
 #: ../bin/ccurve.c:322
 msgid "Create Curved Track"
-msgstr ""
+msgstr "Добавить кривой трек"
 
 #: ../bin/ccurve.c:388
 msgid "Elevation Difference"
-msgstr ""
+msgstr "Разнице высот"
 
 #: ../bin/ccurve.c:389 ../bin/tcurve.c:347 ../bin/cdraw.c:193
 #: ../bin/ctodesgn.c:459
 msgid "Radius"
-msgstr ""
+msgstr "Радиус"
 
 #: ../bin/ccurve.c:390 ../bin/tcurve.c:348
 msgid "Turns"
-msgstr ""
+msgstr "Повороты"
 
 #: ../bin/ccurve.c:391
 msgid "Angular Separation"
@@ -270,28 +270,28 @@ msgstr ""
 
 #: ../bin/ccurve.c:524
 msgid "Circle Radius"
-msgstr ""
+msgstr "Радиус окружности"
 
 #: ../bin/ccurve.c:529
 msgid "Click on Circle Edge"
-msgstr ""
+msgstr "Нажмите на окружность"
 
 #: ../bin/ccurve.c:533
 msgid "Click on Circle Center"
-msgstr ""
+msgstr "Нажмите на центр круга"
 
 #: ../bin/ccurve.c:564
 msgid "Drag to Center"
-msgstr ""
+msgstr "Тащите в центр"
 
 #: ../bin/ccurve.c:568
 msgid "Drag to Edge"
-msgstr ""
+msgstr "Тащите к стороне"
 
 #: ../bin/ccurve.c:589 ../bin/ccurve.c:593
 #, c-format
 msgid "Radius=%s"
-msgstr ""
+msgstr "Радиус=%s"
 
 #: ../bin/ccurve.c:608
 msgid "Create Helix Track"
@@ -299,7 +299,7 @@ msgstr ""
 
 #: ../bin/ccurve.c:615
 msgid "Create Circle Track"
-msgstr ""
+msgstr "Добавить круглый трек"
 
 #: ../bin/ccurve.c:671
 msgid "Place circle center"
@@ -311,51 +311,51 @@ msgstr ""
 
 #: ../bin/ccurve.c:686
 msgid "Place circle"
-msgstr ""
+msgstr "Добавьте окружность"
 
 #: ../bin/ccurve.c:711
 msgid "Curve Track"
-msgstr ""
+msgstr "Кривой трек"
 
 #: ../bin/ccurve.c:711
 msgid "Curve Tracks"
-msgstr ""
+msgstr "Кривые треки"
 
 #: ../bin/ccurve.c:712
 msgid "Curve from End-Pt"
-msgstr ""
+msgstr "Кривая из конечной точки"
 
 #: ../bin/ccurve.c:713
 msgid "Curve from Tangent"
-msgstr ""
+msgstr "Кривая по касательной"
 
 #: ../bin/ccurve.c:714
 msgid "Curve from Center"
-msgstr ""
+msgstr "Кривая из центра"
 
 #: ../bin/ccurve.c:715
 msgid "Curve from Chord"
-msgstr ""
+msgstr "Кривая по хорде"
 
 #: ../bin/ccurve.c:718 ../bin/tcurve.c:617
 msgid "Circle Track"
-msgstr ""
+msgstr "Окружность"
 
 #: ../bin/ccurve.c:718
 msgid "Circle Tracks"
-msgstr ""
+msgstr "Окружности"
 
 #: ../bin/ccurve.c:719
 msgid "Fixed Radius Circle"
-msgstr ""
+msgstr "Окружность по радиусу"
 
 #: ../bin/ccurve.c:720
 msgid "Circle from Tangent"
-msgstr ""
+msgstr "Окружность по касательной"
 
 #: ../bin/ccurve.c:721
 msgid "Circle from Center"
-msgstr ""
+msgstr "Окружность из центра"
 
 #: ../bin/celev.c:44 ../bin/doption.c:215 ../bin/doption.c:216
 #: ../bin/cprofile.c:1355 ../bin/csplit.c:105 ../bin/csplit.c:110
@@ -841,7 +841,7 @@ msgstr ""
 #: ../bin/doption.c:315 ../bin/cselect.c:1853 ../bin/dcar.c:1538
 #: ../../../build/xtc_4-2-2/app/i18n/custmsg.h:13
 msgid "Select"
-msgstr ""
+msgstr "Выбрать"
 
 #: ../bin/doption.c:320
 msgid "Normal: Command List, Shift: Command Options"
@@ -1132,11 +1132,11 @@ msgstr ""
 
 #: ../bin/cparalle.c:140
 msgid "Create Parallel Track"
-msgstr ""
+msgstr "Добавить параллельный трек"
 
 #: ../bin/cparalle.c:184 ../../../build/xtc_4-2-2/app/i18n/custmsg.h:44
 msgid "Parallel"
-msgstr ""
+msgstr "Параллель"
 
 #: ../bin/cprint.c:96 ../wlib/gtklib/psprint.c:1348
 msgid "Portrait"
@@ -1388,11 +1388,11 @@ msgstr ""
 #: ../bin/cstraigh.c:67
 #, c-format
 msgid "Straight Track Length=%s Angle=%0.3f"
-msgstr ""
+msgstr "Длина прямого трека=%s Угол=%0.3f"
 
 #: ../bin/cstraigh.c:104 ../bin/tstraigh.c:259
 msgid "Straight Track"
-msgstr ""
+msgstr "Прямой трек"
 
 #: ../bin/cswitchmotor.c:82 ../bin/cswitchmotor.c:142
 msgid "Point Sense"
@@ -1572,7 +1572,7 @@ msgstr ""
 #: ../bin/custom.c:189
 #, c-format
 msgid "%s Note Files|*.not"
-msgstr ""
+msgstr "%s Файлы заметок|*.not"
 
 #: ../bin/custom.c:194
 #, c-format
@@ -1646,7 +1646,7 @@ msgstr ""
 #: ../bin/track.c:1588 ../bin/track.c:1592 ../bin/track.c:1612
 #: ../bin/track.c:1674 ../wlib/gtklib/wpref.c:246 ../wlib/gtklib/wpref.c:253
 msgid "Continue"
-msgstr ""
+msgstr "Продолжить"
 
 #: ../bin/dbitmap.c:99 ../bin/dbitmap.c:103
 msgid "Drawn with "
@@ -1898,7 +1898,7 @@ msgstr ""
 
 #: ../bin/macro.c:603 ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:477
 msgid "Speed"
-msgstr ""
+msgstr "Скорость"
 
 #: ../bin/macro.c:833 ../bin/macro.c:1223
 msgid "Demo"
@@ -2516,11 +2516,11 @@ msgstr ""
 
 #: ../bin/cselect.c:1875
 msgid "Align"
-msgstr ""
+msgstr "Выравнивание"
 
 #: ../bin/cselect.c:1896 ../bin/misc.c:2046
 msgid "Tunnel"
-msgstr ""
+msgstr "Туннель"
 
 #: ../bin/cselect.c:1905
 msgid "Move Description"
@@ -2528,17 +2528,17 @@ msgstr ""
 
 #: ../bin/cselect.c:1912 ../bin/misc.c:2044
 msgid "Move"
-msgstr ""
+msgstr "Переместить"
 
 #: ../bin/cselect.c:1914 ../bin/misc.c:1823 ../bin/misc.c:2045
 #: ../../../build/xtc_4-2-2/app/i18n/custmsg.h:58
 msgid "Rotate"
-msgstr ""
+msgstr "Повернуть"
 
 #: ../bin/cselect.c:1916 ../bin/dcar.c:1957
 #: ../../../build/xtc_4-2-2/app/i18n/custmsg.h:59
 msgid "Flip"
-msgstr ""
+msgstr "Отразить"
 
 #: ../bin/csnap.c:517
 msgid "Horz"
@@ -2574,19 +2574,19 @@ msgstr "Изменить сетку..."
 
 #: ../bin/ctext.c:57 ../bin/ctext.c:129 ../bin/cdraw.c:206
 msgid "Font Size"
-msgstr ""
+msgstr "Размер шрифта"
 
 #: ../bin/ctext.c:181 ../bin/ctext.c:220
 msgid "Create Text"
-msgstr ""
+msgstr "Создать текст"
 
 #: ../bin/ctext.c:249 ../bin/cdraw.c:207 ../bin/cdraw.c:491
 msgid "Text"
-msgstr ""
+msgstr "Текст"
 
 #: ../bin/ctext.c:251
 msgid "Fonts..."
-msgstr ""
+msgstr "Шрифты..."
 
 #: ../bin/ctrain.c:168 ../bin/dcar.c:1988 ../bin/dcar.c:4072 ../bin/dcar.c:4077
 msgid "Index"
@@ -2594,7 +2594,7 @@ msgstr ""
 
 #: ../bin/ctrain.c:169 ../bin/cnote.c:148
 msgid "Position"
-msgstr ""
+msgstr "Позиция"
 
 #: ../bin/ctrain.c:174 ../bin/dcar.c:4073
 msgid "Rep Marks"
@@ -2606,32 +2606,32 @@ msgstr ""
 
 #: ../bin/ctrain.c:542
 msgid "Follow"
-msgstr ""
+msgstr "Следовать"
 
 #: ../bin/ctrain.c:543
 msgid "Auto Reverse"
-msgstr ""
+msgstr "Авторазворот"
 
 #: ../bin/ctrain.c:562 ../bin/dcar.c:4957
 msgid "Find"
-msgstr ""
+msgstr "Найти"
 
 #: ../bin/ctrain.c:568 ../bin/ctrain.c:777 ../bin/ctrain.c:1034
 #: ../wlib/gtklib/gtkhelp.c:522
 msgid "Forward"
-msgstr ""
+msgstr "Вперёд"
 
 #: ../bin/ctrain.c:730 ../bin/ctrain.c:753
 msgid "Crashed"
-msgstr ""
+msgstr "Разрушено"
 
 #: ../bin/ctrain.c:732
 msgid "Not on Track"
-msgstr ""
+msgstr "Не на треке"
 
 #: ../bin/ctrain.c:735
 msgid "Trains Paused"
-msgstr ""
+msgstr "Поезда остановлены"
 
 #: ../bin/ctrain.c:737
 msgid "Running"
@@ -2639,7 +2639,7 @@ msgstr ""
 
 #: ../bin/ctrain.c:741
 msgid "End of Track"
-msgstr ""
+msgstr "Конец трека"
 
 #: ../bin/ctrain.c:744
 msgid "Open Turnout"
@@ -2647,7 +2647,7 @@ msgstr ""
 
 #: ../bin/ctrain.c:747
 msgid "Manual Stop"
-msgstr ""
+msgstr "Ручная остановка"
 
 #: ../bin/ctrain.c:750
 msgid "No Room"
@@ -2659,7 +2659,7 @@ msgstr ""
 
 #: ../bin/ctrain.c:765
 msgid "No trains"
-msgstr ""
+msgstr "Нет поездов"
 
 #: ../bin/ctrain.c:1083
 msgid "Train Control XXX"
@@ -2739,6 +2739,9 @@ msgid ""
 "\n"
 "If you don't save now, your unsaved changes will be discarded."
 msgstr ""
+"Сохранить изменения перед закрытием?\n"
+"\n"
+"Если вы не сделаете это, все ваши несохранённые изменения будут потеряны."
 
 #: ../bin/misc.c:456 ../bin/misc.c:2085
 msgid "&Save"
@@ -3111,7 +3114,7 @@ msgstr "Вырезать"
 
 #: ../bin/misc.c:2114
 msgid "&Copy"
-msgstr ""
+msgstr "&Копировать"
 
 #: ../bin/misc.c:2115
 msgid "&Paste"
@@ -3322,7 +3325,7 @@ msgstr ""
 #: ../bin/misc.c:2503
 #, c-format
 msgid "Unnamed Trackplan - %s(%s)"
-msgstr ""
+msgstr "Безымянный проект - %s(%s)"
 
 #: ../bin/misc.c:2569
 msgid "Initializing commands"
@@ -3420,6 +3423,8 @@ msgid ""
 "Straight Track(%d): Layer=%d Length=%s EP=[%0.3f,%0.3f A%0.3f] [%0.3f,%0.3f A"
 "%0.3f]"
 msgstr ""
+"Прямой трек(%d): Слой=%d Длина=%s EP=[%0.3f,%0.3f A%0.3f] [%0.3f,%0.3f A"
+"%0.3f]"
 
 #: ../bin/tstraigh.c:462
 msgid "Extending Straight Track"
@@ -3427,7 +3432,7 @@ msgstr ""
 
 #: ../bin/tstraigh.c:541
 msgid "Straight "
-msgstr ""
+msgstr "Прямая"
 
 #: ../bin/tstraigh.c:548 ../bin/track.c:1913
 #, c-format
@@ -3454,7 +3459,7 @@ msgstr ""
 #: ../bin/drawgeom.c:292
 #, c-format
 msgid "Straight Line: Length=%s Angle=%0.3f"
-msgstr ""
+msgstr "Прямая линия: Длина=%s Угол=%0.3f"
 
 #: ../bin/drawgeom.c:315
 #, c-format
@@ -3495,7 +3500,7 @@ msgstr ""
 #: ../bin/cmodify.c:323
 #, c-format
 msgid "Curve Track: Radius=%s Length=%s Angle=%0.3f"
-msgstr ""
+msgstr "Кривой трек: Радиус=%s Длина=%s Угол=%0.3f"
 
 #: ../bin/cmodify.c:339
 msgid "Extend Track"
@@ -3605,6 +3610,8 @@ msgid ""
 "\n"
 "Do you want to continue?"
 msgstr ""
+"\n"
+"Вы хотите продолжить?"
 
 #: ../bin/fileio.c:538
 msgid "Parameter"
@@ -3621,7 +3628,7 @@ msgstr ""
 
 #: ../bin/fileio.c:694
 msgid "Unnamed Trackplan"
-msgstr ""
+msgstr "Безымянный проект"
 
 #: ../bin/fileio.c:710 ../bin/fileio.c:1030
 msgid "Check Pointing"
@@ -3687,7 +3694,7 @@ msgstr ""
 
 #: ../bin/dcmpnd.c:315
 msgid "Skip"
-msgstr ""
+msgstr "Пропустить"
 
 #: ../bin/dcmpnd.c:347
 #, c-format
@@ -3737,11 +3744,11 @@ msgstr ""
 #: ../bin/cdraw.c:203 ../bin/cdraw.c:825
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:525
 msgid "Size"
-msgstr ""
+msgstr "Размер"
 
 #: ../bin/cdraw.c:418
 msgid "Straight Line"
-msgstr ""
+msgstr "Прямая линия"
 
 #: ../bin/cdraw.c:421 ../bin/cdraw.c:1036
 msgid "Dimension Line"
@@ -3798,7 +3805,7 @@ msgstr ""
 
 #: ../bin/cdraw.c:829
 msgid "Straight"
-msgstr ""
+msgstr "Прямая"
 
 #: ../bin/cdraw.c:830
 msgid "Dimension"
@@ -3864,7 +3871,7 @@ msgstr ""
 
 #: ../bin/cdraw.c:1040
 msgid "Curve End"
-msgstr ""
+msgstr "Конец кривой"
 
 #: ../bin/cdraw.c:1040
 msgid "Draw Curve from End"
@@ -3872,7 +3879,7 @@ msgstr ""
 
 #: ../bin/cdraw.c:1041
 msgid "Curve Tangent"
-msgstr ""
+msgstr "Тангенс кривой"
 
 #: ../bin/cdraw.c:1041
 msgid "Draw Curve from Tangent"
@@ -3880,7 +3887,7 @@ msgstr ""
 
 #: ../bin/cdraw.c:1042
 msgid "Curve Center"
-msgstr ""
+msgstr "Центр кривой"
 
 #: ../bin/cdraw.c:1042
 msgid "Draw Curve from Center"
@@ -3888,7 +3895,7 @@ msgstr ""
 
 #: ../bin/cdraw.c:1043
 msgid "Curve Chord"
-msgstr ""
+msgstr "Хорда кривой"
 
 #: ../bin/cdraw.c:1043
 msgid "Draw Curve from Chord"
@@ -3896,7 +3903,7 @@ msgstr ""
 
 #: ../bin/cdraw.c:1046
 msgid "Circle Tangent"
-msgstr ""
+msgstr "Касательная к окружности"
 
 #: ../bin/cdraw.c:1046
 msgid "Draw Circle from Tangent"
@@ -3944,7 +3951,7 @@ msgstr ""
 
 #: ../bin/cdraw.c:1071
 msgid "Straight Objects"
-msgstr ""
+msgstr "Прямые объекты"
 
 #: ../bin/cdraw.c:1071
 msgid "Draw Straight Objects"
@@ -3992,27 +3999,27 @@ msgstr "Свойства"
 
 #: ../bin/cnote.c:96 ../bin/cnote.c:203 ../bin/cnote.c:402
 msgid "Note"
-msgstr ""
+msgstr "Заметка"
 
 #: ../bin/cnote.c:99
 msgid "Replace this text with your layout notes"
-msgstr ""
+msgstr "Замените этот текст вашей заметкой к рабочей области"
 
 #: ../bin/cnote.c:190 ../bin/cnote.c:191 ../bin/cnote.c:192
 msgid "Note: "
-msgstr ""
+msgstr "Заметка:"
 
 #: ../bin/cnote.c:359 ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:91
 msgid "Place a note on the layout"
-msgstr ""
+msgstr "Поместить заметку на рабочую область"
 
 #: ../bin/cnote.c:372
 msgid "New Note"
-msgstr ""
+msgstr "Новая заметка"
 
 #: ../bin/cnote.c:377
 msgid "Replace this text with your note"
-msgstr ""
+msgstr "Замените этот текст вашей заметкой"
 
 #: ../bin/ctodesgn.c:106
 msgid "Frog #"
@@ -4020,18 +4027,18 @@ msgstr ""
 
 #: ../bin/ctodesgn.c:106
 msgid "Degrees"
-msgstr ""
+msgstr "Градусы"
 
 #: ../bin/ctodesgn.c:133 ../bin/ctodesgn.c:134 ../bin/ctodesgn.c:182
 #: ../bin/ctodesgn.c:205 ../bin/ctodesgn.c:207 ../bin/ctodesgn.c:243
 #: ../bin/ctodesgn.c:244 ../bin/ctodesgn.c:280 ../bin/ctodesgn.c:282
 #: ../bin/ctodesgn.c:497
 msgid "Offset"
-msgstr ""
+msgstr "Смещение"
 
 #: ../bin/ctodesgn.c:142 ../bin/ctodesgn.c:1759 ../bin/ctodesgn.c:1760
 msgid "Left Description"
-msgstr ""
+msgstr "Описание слева"
 
 #: ../bin/ctodesgn.c:143 ../bin/ctodesgn.c:146
 msgid " #"
@@ -4039,7 +4046,7 @@ msgstr ""
 
 #: ../bin/ctodesgn.c:145 ../bin/ctodesgn.c:1758
 msgid "Right Description"
-msgstr ""
+msgstr "Описание справа"
 
 #: ../bin/ctodesgn.c:147
 msgid "Roadbed Width"
@@ -4151,7 +4158,7 @@ msgstr ""
 
 #: ../bin/ctodesgn.c:449
 msgid "Straight Section"
-msgstr ""
+msgstr "Прямое выделение"
 
 #: ../bin/ctodesgn.c:460
 msgid "Angle (Degrees)"
@@ -4167,11 +4174,11 @@ msgstr ""
 
 #: ../bin/ctodesgn.c:498
 msgid "Radius1"
-msgstr ""
+msgstr "Радиус1"
 
 #: ../bin/ctodesgn.c:499
 msgid "Radius2"
-msgstr ""
+msgstr "Радиус2"
 
 #: ../bin/ctodesgn.c:579
 msgid "Turntable Section"
@@ -4637,7 +4644,7 @@ msgstr ""
 
 #: ../wlib/gtklib/gtkhelp.c:528
 msgid "Contents"
-msgstr ""
+msgstr "Содержание"
 
 #: ../wlib/gtklib/gtkhelp.c:732
 msgid "&Contents"
@@ -4665,7 +4672,7 @@ msgstr ""
 #: ../wlib/gtklib/wpref.c:152 ../wlib/gtklib/wpref.c:161
 #: ../wlib/gtklib/wpref.c:197
 msgid "Exit"
-msgstr ""
+msgstr "Выход"
 
 #: ../wlib/gtklib/wpref.c:160
 #, c-format
@@ -4675,7 +4682,7 @@ msgstr ""
 #: ../wlib/gtklib/psprint.c:868
 #, c-format
 msgid "Page %d"
-msgstr ""
+msgstr "Страница %d"
 
 #: ../wlib/gtklib/psprint.c:915
 msgid "Print to file ..."
@@ -4700,7 +4707,7 @@ msgstr ""
 
 #: ../wlib/gtklib/psprint.c:1075
 msgid "Page 1"
-msgstr ""
+msgstr "Страница 1"
 
 #: ../wlib/gtklib/psprint.c:1155
 msgid "Printer Margin Test Page"
@@ -4863,7 +4870,7 @@ msgstr ""
 #
 #: ../../../build/xtc_4-2-2/app/help/messages.h:14
 msgid "MSG_CURVE_OUT_OF_RANGE\tAngle must be between 0° and 360°."
-msgstr ""
+msgstr "MSG_CURVE_OUT_OF_RANGE\tУгол должен быть между 0° и 360°."
 
 #: ../../../build/xtc_4-2-2/app/help/messages.h:15
 #, c-format
@@ -5382,7 +5389,7 @@ msgstr ""
 #: ../../../build/xtc_4-2-2/app/help/messages.h:102
 #, c-format
 msgid "MSG_PT_IS_NOT_TRK\t[X Y] is not a track\t[%s %s] is not a track."
-msgstr ""
+msgstr "MSG_PT_IS_NOT_TRK\t[X Y] это не трек\t[%s %s] это не трек."
 
 #: ../../../build/xtc_4-2-2/app/help/messages.h:103
 msgid ""
@@ -5700,11 +5707,11 @@ msgstr ""
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:24
 msgid "Create fixed radius track circle"
-msgstr ""
+msgstr "Добавить круглый трек по радиусу"
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:25
 msgid "Set Circle Track creation mode"
-msgstr ""
+msgstr "Выбрать тип круглых треков"
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:26
 msgid "Create track circle from tangent"
@@ -5732,23 +5739,23 @@ msgstr ""
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:32
 msgid "Create curved track from center"
-msgstr ""
+msgstr "Добавить кривой трек из центра"
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:33
 msgid "Create curved track from chord"
-msgstr ""
+msgstr "Добавить кривой трек по хорде"
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:34
 msgid "Create curved track from end-point"
-msgstr ""
+msgstr "Добавить кривой трек из конечной точки"
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:35
 msgid "Set Curve Track creation mode"
-msgstr ""
+msgstr "Выбрать тип кривых треков"
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:36
 msgid "Create curved track from tangent"
-msgstr ""
+msgstr "Добавить кривой трек по касательной"
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:37
 msgid "Manipulate Custom designer entries"
@@ -5860,11 +5867,11 @@ msgstr ""
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:64
 msgid "Create a polyline"
-msgstr ""
+msgstr "Добавить полилинию"
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:65
 msgid "Create a straight line"
-msgstr ""
+msgstr "Добавить прямую линию"
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:66
 msgid "Set Line drawing command"
@@ -5968,7 +5975,7 @@ msgstr ""
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:93
 msgid "Create a parallel track"
-msgstr ""
+msgstr "Добавить параллельный трек"
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:94
 msgid "Register"
@@ -6048,7 +6055,7 @@ msgstr ""
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:115
 msgid "Create straight track"
-msgstr ""
+msgstr "Добавить прямой трек"
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:116
 msgid "Place a structure on the layout"
@@ -7217,7 +7224,7 @@ msgstr ""
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:484
 msgid "Stop the train"
-msgstr ""
+msgstr "Остановить поезд"
 
 #: ../../../build/xtc_4-2-2/app/bin/bllnhlp.c:485
 msgid "List of available turnouts for the current scale"
@@ -7416,7 +7423,7 @@ msgstr ""
 
 #: ../../../build/xtc_4-2-2/app/i18n/custmsg.h:15
 msgid "Straight tracks"
-msgstr ""
+msgstr "Прямые треки"
 
 #: ../../../build/xtc_4-2-2/app/i18n/custmsg.h:16
 msgid "Curved tracks"
@@ -7424,7 +7431,7 @@ msgstr ""
 
 #: ../../../build/xtc_4-2-2/app/i18n/custmsg.h:17
 msgid "Circles"
-msgstr ""
+msgstr "Окружности"
 
 #: ../../../build/xtc_4-2-2/app/i18n/custmsg.h:18
 msgid "Turntables"
@@ -7456,11 +7463,11 @@ msgstr ""
 
 #: ../../../build/xtc_4-2-2/app/i18n/custmsg.h:25
 msgid "Curve to straight"
-msgstr ""
+msgstr "Кривая к прямой"
 
 #: ../../../build/xtc_4-2-2/app/i18n/custmsg.h:26
 msgid "Circle to circle"
-msgstr ""
+msgstr "Круг к кругу"
 
 #: ../../../build/xtc_4-2-2/app/i18n/custmsg.h:27
 msgid "Joining to turntables"
