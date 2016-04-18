@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xtrkcad 4.2.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-06 12:30+0100\n"
-"PO-Revision-Date: 2016-04-03 12:23+0300\n"
+"PO-Revision-Date: 2016-04-18 15:02+0300\n"
 "Last-Translator: CupIvan <mail@cupivan.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -39,12 +39,12 @@ msgstr "Длина"
 #: ../bin/cblock.c:136 ../bin/cdraw.c:190 ../bin/compound.c:512
 #: ../bin/tcurve.c:342 ../bin/tease.c:498 ../bin/tstraigh.c:77
 msgid "End Pt 1: X"
-msgstr ""
+msgstr "Начало: X"
 
 #: ../bin/cblock.c:137 ../bin/cdraw.c:191 ../bin/compound.c:514
 #: ../bin/tcurve.c:344 ../bin/tease.c:500 ../bin/tstraigh.c:79
 msgid "End Pt 2: X"
-msgstr ""
+msgstr "Конец: X"
 
 #: ../bin/cblock.c:162
 msgid "Change Block"
@@ -146,7 +146,7 @@ msgstr "Да"
 #: ../bin/dcustmgm.c:136 ../bin/track.c:1313 ../bin/track.c:1410
 #: ../bin/track.c:1424 ../bin/misc.c:1053 ../bin/misc.c:1058 ../bin/misc.c:1123
 msgid "No"
-msgstr ""
+msgstr "Нет"
 
 #: ../bin/cblock.c:600 ../bin/cblock.c:644
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:18
@@ -358,7 +358,7 @@ msgstr ""
 
 #: ../bin/cdraw.c:192 ../bin/tcurve.c:346
 msgid "Center: X"
-msgstr ""
+msgstr "Центр: X"
 
 #: ../bin/cdraw.c:195 ../bin/cdraw.c:205 ../bin/compound.c:518
 #: ../bin/cprint.c:134 ../bin/ctodesgn.c:136 ../bin/ctodesgn.c:138
@@ -368,7 +368,7 @@ msgstr ""
 #: ../bin/ctodesgn.c:361 ../bin/ctodesgn.c:460 ../bin/ctrain.c:170
 #: ../bin/tease.c:503 ../bin/tstraigh.c:82
 msgid "Angle"
-msgstr ""
+msgstr "Угол"
 
 #: ../bin/cdraw.c:196 ../bin/tcurve.c:352
 msgid "CCW Angle"
@@ -384,7 +384,7 @@ msgstr ""
 
 #: ../bin/cdraw.c:199 ../bin/cdraw.c:811 ../bin/ctodesgn.c:148
 msgid "Line Width"
-msgstr ""
+msgstr "Ширина линии"
 
 #: ../bin/cdraw.c:200 ../bin/cdraw.c:813 ../bin/cdraw.c:815 ../bin/cdraw.c:890
 #: ../bin/cdraw.c:914 ../bin/cmisc.c:97 ../bin/ctext.c:59 ../bin/ctext.c:130
@@ -399,7 +399,7 @@ msgstr ""
 
 #: ../bin/cdraw.c:202
 msgid "Orientation"
-msgstr ""
+msgstr "Ориентация"
 
 #: ../bin/cdraw.c:203 ../bin/cdraw.c:825
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:525
@@ -422,7 +422,7 @@ msgstr "Текст"
 #: ../bin/cdraw.c:208 ../bin/cmisc.c:114 ../bin/tcurve.c:355 ../bin/tease.c:509
 #: ../bin/tstraigh.c:84
 msgid "Pivot"
-msgstr ""
+msgstr "Центр"
 
 #: ../bin/cdraw.c:209 ../bin/cnote.c:149 ../bin/compound.c:524
 #: ../bin/cturntbl.c:243 ../bin/tcurve.c:356 ../bin/tease.c:510
@@ -447,7 +447,7 @@ msgstr ""
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:621
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:622
 msgid "Layer"
-msgstr ""
+msgstr "Слой"
 
 #: ../bin/cdraw.c:418
 msgid "Straight Line"
@@ -455,7 +455,7 @@ msgstr "Прямая линия"
 
 #: ../bin/cdraw.c:421 ../bin/cdraw.c:1036
 msgid "Dimension Line"
-msgstr ""
+msgstr "Размеры линии"
 
 #: ../bin/cdraw.c:436 ../bin/cdraw.c:832 ../bin/cdraw.c:1038
 msgid "Table Edge"
@@ -488,19 +488,19 @@ msgstr ""
 
 #: ../bin/cdraw.c:508 ../bin/cdraw.c:934
 msgid "Tiny"
-msgstr ""
+msgstr "Крошечный"
 
 #: ../bin/cdraw.c:509 ../bin/cdraw.c:935
 msgid "Small"
-msgstr ""
+msgstr "Маленький"
 
 #: ../bin/cdraw.c:510 ../bin/cdraw.c:936
 msgid "Medium"
-msgstr ""
+msgstr "Средний"
 
 #: ../bin/cdraw.c:511 ../bin/cdraw.c:937
 msgid "Large"
-msgstr ""
+msgstr "Большой"
 
 #: ../bin/cdraw.c:778 ../bin/drawgeom.c:71 ../bin/drawgeom.c:86
 msgid "Create Lines"
@@ -562,7 +562,7 @@ msgstr "Рисовать прямую"
 
 #: ../bin/cdraw.c:1036
 msgid "Draw Dimension Line"
-msgstr "Рисовать линейку"
+msgstr "Рисовать размер"
 
 #: ../bin/cdraw.c:1037 ../../../build/xtc_4-2-3dev/app/i18n/custmsg.h:53
 msgid "Benchwork"
@@ -901,11 +901,11 @@ msgstr ""
 
 #: ../bin/cjoin.c:508 ../bin/cmisc.c:52 ../bin/track.c:1956
 msgid "First"
-msgstr ""
+msgstr "Начало"
 
 #: ../bin/cjoin.c:513 ../bin/cmisc.c:52 ../bin/track.c:1956
 msgid "Second"
-msgstr ""
+msgstr "Конец"
 
 #: ../bin/cjoin.c:604
 msgid "Beyond end of 2nd track"
@@ -937,12 +937,12 @@ msgstr "Присоединить"
 
 #: ../bin/cmisc.c:52
 msgid "Middle"
-msgstr ""
+msgstr "Середина"
 
 #: ../bin/cmisc.c:153 ../bin/cmodify.c:121 ../bin/cnote.c:168
 #: ../bin/compound.c:592 ../bin/ctrain.c:195
 msgid "Change Track"
-msgstr ""
+msgstr "Изменить трек"
 
 #: ../bin/cmisc.c:397
 msgid "Select track to describe"
@@ -958,7 +958,7 @@ msgstr "Мост"
 
 #: ../bin/cmodify.c:83
 msgid "Select track to modify"
-msgstr ""
+msgstr "Выберите трек для изменения"
 
 #: ../bin/cmodify.c:169
 msgid "Modify Track"
@@ -966,7 +966,7 @@ msgstr "Изменить трек"
 
 #: ../bin/cmodify.c:205
 msgid "Drag to create new track segment"
-msgstr ""
+msgstr "Тяните, чтобы создавать новые сегменты трека"
 
 #: ../bin/cmodify.c:323
 #, c-format
@@ -1165,7 +1165,7 @@ msgstr ""
 #: ../bin/cprint.c:1068 ../bin/ctodesgn.c:1712 ../bin/denum.c:50
 #: ../bin/cprofile.c:564
 msgid "Print"
-msgstr ""
+msgstr "Печать"
 
 #: ../bin/cprint.c:1090
 msgid "Select pages to print, or drag to move print grid"
@@ -1630,7 +1630,7 @@ msgstr ""
 
 #: ../bin/ctodesgn.c:151 ../bin/denum.c:51
 msgid "Print Setup"
-msgstr ""
+msgstr "Настройки печати"
 
 #: ../bin/ctodesgn.c:180
 msgid "Diverging Length"
@@ -1793,7 +1793,7 @@ msgstr ""
 
 #: ../bin/ctrain.c:168 ../bin/dcar.c:1986 ../bin/dcar.c:4070 ../bin/dcar.c:4075
 msgid "Index"
-msgstr ""
+msgstr "№"
 
 #: ../bin/ctrain.c:174 ../bin/dcar.c:4071
 msgid "Rep Marks"
@@ -1855,11 +1855,11 @@ msgstr "Ручная остановка"
 
 #: ../bin/ctrain.c:750
 msgid "No Room"
-msgstr ""
+msgstr "Нет комнат"
 
 #: ../bin/ctrain.c:756
 msgid "Unknown Status"
-msgstr ""
+msgstr "Неизвестный статус"
 
 #: ../bin/ctrain.c:765
 msgid "No trains"
@@ -1867,20 +1867,20 @@ msgstr "Нет поездов"
 
 #: ../bin/ctrain.c:1083
 msgid "Train Control XXX"
-msgstr ""
+msgstr "Управление поездом XXX"
 
 #: ../bin/ctrain.c:1084
 #, c-format
 msgid "Train Control %d"
-msgstr ""
+msgstr "Управление поездом %d"
 
 #: ../bin/ctrain.c:1086
 msgid "Train Control"
-msgstr ""
+msgstr "Управление поездом"
 
 #: ../bin/ctrain.c:2030 ../bin/dcar.c:1962
 msgid "Road"
-msgstr ""
+msgstr "Дорога"
 
 #: ../bin/ctrain.c:2030 ../bin/dcar.c:1966
 msgid "Number"
@@ -1888,7 +1888,7 @@ msgstr ""
 
 #: ../bin/ctrain.c:2067 ../bin/ctrain.c:2551
 msgid "Train"
-msgstr ""
+msgstr "Поезд"
 
 #: ../bin/ctrain.c:2566
 msgid "Uncouple"
@@ -1896,11 +1896,11 @@ msgstr ""
 
 #: ../bin/ctrain.c:2567
 msgid "Flip Car"
-msgstr ""
+msgstr "Развернуть машину"
 
 #: ../bin/ctrain.c:2568
 msgid "Flip Train"
-msgstr ""
+msgstr "Развернуть поезд"
 
 #: ../bin/ctrain.c:2569
 msgid "MU Master"
@@ -1921,7 +1921,7 @@ msgstr ""
 #: ../bin/cturnout.c:82 ../bin/dcar.c:2008 ../bin/dcar.c:2012
 #: ../bin/dcustmgm.c:59
 msgid "New"
-msgstr ""
+msgstr "Новый"
 
 #: ../bin/cturnout.c:192
 #, c-format
@@ -1991,7 +1991,7 @@ msgstr ""
 
 #: ../bin/cturnout.c:2372 ../bin/param.c:2584
 msgid "Close"
-msgstr ""
+msgstr "Закрыть"
 
 #: ../bin/cturnout.c:2389
 msgid "Pick turnout and active End Point, then place on the layout"
@@ -2244,23 +2244,23 @@ msgstr ""
 
 #: ../bin/dcar.c:479
 msgid "Diesel Loco"
-msgstr ""
+msgstr "Дизельный локомотив"
 
 #: ../bin/dcar.c:480
 msgid "Steam Loco"
-msgstr ""
+msgstr "Паровоз"
 
 #: ../bin/dcar.c:481
 msgid "Elect Loco"
-msgstr ""
+msgstr "Электровоз"
 
 #: ../bin/dcar.c:482
 msgid "Freight Car"
-msgstr ""
+msgstr "Грузовой вагон"
 
 #: ../bin/dcar.c:483
 msgid "Psngr Car"
-msgstr ""
+msgstr "Пассажирский вагон"
 
 #: ../bin/dcar.c:484
 msgid "M-O-W"
@@ -2268,7 +2268,7 @@ msgstr ""
 
 #: ../bin/dcar.c:485 ../bin/doption.c:221
 msgid "Other"
-msgstr ""
+msgstr "Другой"
 
 #: ../bin/dcar.c:1084 ../bin/dcar.c:4776
 msgid "N/A"
@@ -2302,11 +2302,11 @@ msgstr ""
 #: ../bin/dcar.c:1912 ../wlib/gtklib/gtkmisc.c:398
 #: ../wlib/mswlib/mswmisc.c:1707
 msgid "Information"
-msgstr ""
+msgstr "Информация"
 
 #: ../bin/dcar.c:1912
 msgid "Customize"
-msgstr ""
+msgstr "Внешний вид"
 
 #: ../bin/dcar.c:1924
 msgid "Sequential"
@@ -2318,11 +2318,11 @@ msgstr ""
 
 #: ../bin/dcar.c:1935 ../bin/dcar.c:1937 ../bin/dcar.c:5106
 msgid "Prototype"
-msgstr ""
+msgstr "Название"
 
 #: ../bin/dcar.c:1941 ../bin/dcar.c:4070 ../bin/dcar.c:4075
 msgid "Type"
-msgstr ""
+msgstr "Тип"
 
 #: ../bin/dcar.c:1943
 msgid "Part"
@@ -2336,15 +2336,15 @@ msgstr ""
 
 #: ../bin/dcar.c:1947
 msgid "Loco?"
-msgstr ""
+msgstr "Поезд"
 
 #: ../bin/dcar.c:1951 ../bin/dcar.c:4108
 msgid "Import"
-msgstr ""
+msgstr "Импорт"
 
 #: ../bin/dcar.c:1958
 msgid "Mode"
-msgstr ""
+msgstr "Режим"
 
 #: ../bin/dcar.c:1964
 msgid "Reporting Mark"
@@ -2352,11 +2352,11 @@ msgstr ""
 
 #: ../bin/dcar.c:1970
 msgid "Car Length"
-msgstr ""
+msgstr "Длина вагона"
 
 #: ../bin/dcar.c:1974
 msgid "Truck Centers"
-msgstr ""
+msgstr "Колёсная база"
 
 #: ../bin/dcar.c:1976
 msgid "Coupler Mount"
@@ -2372,11 +2372,11 @@ msgstr ""
 
 #: ../bin/dcar.c:1988
 msgid "Purchase Price"
-msgstr ""
+msgstr "Цена покупки"
 
 #: ../bin/dcar.c:1990 ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:207
 msgid "Current Price"
-msgstr ""
+msgstr "Текущая цена"
 
 #: ../bin/dcar.c:1992 ../bin/dcar.c:4072 ../bin/dcar.c:4077
 msgid "Condition"
@@ -2384,7 +2384,7 @@ msgstr ""
 
 #: ../bin/dcar.c:1994
 msgid "Purchase Date"
-msgstr ""
+msgstr "Дата покупки"
 
 #: ../bin/dcar.c:1996 ../bin/dcar.c:4077
 msgid "Service Date"
@@ -2392,7 +2392,7 @@ msgstr ""
 
 #: ../bin/dcar.c:1998
 msgid "Quantity"
-msgstr ""
+msgstr "Количество"
 
 #: ../bin/dcar.c:2000
 msgid "Numbers"
@@ -2433,7 +2433,7 @@ msgstr ""
 #: ../bin/dcar.c:2819 ../bin/dcar.c:2828 ../bin/dcar.c:2837 ../bin/dcar.c:3976
 #: ../bin/dcar.c:4104
 msgid "Add"
-msgstr ""
+msgstr "Добавить"
 
 #: ../bin/dcar.c:2821
 #, c-format
@@ -2442,7 +2442,7 @@ msgstr ""
 
 #: ../bin/dcar.c:2822 ../bin/dcar.c:2831 ../bin/dcar.c:2840 ../bin/dcmpnd.c:166
 msgid "Update"
-msgstr ""
+msgstr "Обновить"
 
 #: ../bin/dcar.c:2827
 #, c-format
@@ -2456,11 +2456,11 @@ msgstr ""
 
 #: ../bin/dcar.c:2836
 msgid "New Prototype"
-msgstr ""
+msgstr "Новый тип вагона"
 
 #: ../bin/dcar.c:2839
 msgid "Update Prototype"
-msgstr ""
+msgstr "Обновить прототип"
 
 #: ../bin/dcar.c:3482
 msgid "Enter a 8 digit numeric date"
@@ -2550,11 +2550,11 @@ msgstr ""
 
 #: ../bin/dcar.c:3806
 msgid "Added new Car"
-msgstr ""
+msgstr "Добавлен новый вагон"
 
 #: ../bin/dcar.c:3809
 msgid "Updated Car"
-msgstr ""
+msgstr "Вагон обновлён"
 
 #: ../bin/dcar.c:3812
 msgid " and Part"
@@ -2567,20 +2567,20 @@ msgstr ""
 
 #: ../bin/dcar.c:3839 ../bin/dcar.c:3856
 msgid "Added new"
-msgstr ""
+msgstr "Добавлен новый"
 
 #: ../bin/dcar.c:3839 ../bin/dcar.c:3856
 msgid "Updated"
-msgstr ""
+msgstr "Обновлён"
 
 #: ../bin/dcar.c:3855
 #, c-format
 msgid "%s Prototype: %s%s."
-msgstr ""
+msgstr "%s Тип: %s%s."
 
 #: ../bin/dcar.c:3857
 msgid ". Enter new values or press Close"
-msgstr ""
+msgstr ". Введите новые значения или нажмите Закрыть"
 
 #: ../bin/dcar.c:3976
 msgid "New Car Part"
@@ -2633,27 +2633,27 @@ msgstr "Правка"
 
 #: ../bin/dcar.c:4106 ../bin/dcustmgm.c:55 ../bin/misc.c:2072
 msgid "Delete"
-msgstr ""
+msgstr "Удалить"
 
 #: ../bin/dcar.c:4110 ../bin/fileio.c:1231
 msgid "Export"
-msgstr ""
+msgstr "Экспорт"
 
 #: ../bin/dcar.c:4112 ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:522
 msgid "List"
-msgstr ""
+msgstr "Список"
 
 #: ../bin/dcar.c:4225 ../bin/dcar.c:4955 ../bin/misc.c:2336
 msgid "Car Inventory"
-msgstr ""
+msgstr "Депо"
 
 #: ../bin/dcar.c:4345
 msgid "List Cars"
-msgstr ""
+msgstr "Список машин"
 
 #: ../bin/dcar.c:4466 ../bin/dcar.c:4629
 msgid "Import Cars"
-msgstr ""
+msgstr "Импортировать машины"
 
 #: ../bin/dcar.c:4630 ../bin/dcar.c:4751
 msgid "Comma-Separated-Values|*.csv"
@@ -2665,7 +2665,7 @@ msgstr ""
 
 #: ../bin/dcar.c:4784
 msgid "Layout"
-msgstr ""
+msgstr "Слой"
 
 #: ../bin/dcar.c:4786
 msgid "Shelf"
@@ -2681,7 +2681,7 @@ msgstr ""
 
 #: ../bin/dcmpnd.c:166
 msgid "Update Title"
-msgstr ""
+msgstr "Обновить заголовок"
 
 #: ../bin/dcmpnd.c:226
 #, c-format
@@ -2733,11 +2733,11 @@ msgstr ""
 
 #: ../bin/dcustmgm.c:57
 msgid "Move To"
-msgstr ""
+msgstr "Переместить"
 
 #: ../bin/dcustmgm.c:90
 msgid "Rename"
-msgstr ""
+msgstr "Переименовать"
 
 #: ../bin/dcustmgm.c:157
 msgid "Label"
@@ -2757,7 +2757,7 @@ msgstr ""
 
 #: ../bin/dcustmgm.c:350
 msgid "Manage custom designed parts"
-msgstr ""
+msgstr "Управление своими "
 
 #: ../bin/dease.c:63
 msgid "Sharp"
@@ -2797,7 +2797,7 @@ msgstr ""
 
 #: ../bin/denum.c:143 ../bin/denum.c:144
 msgid "Parts List"
-msgstr ""
+msgstr "Список компонентов"
 
 #: ../bin/denum.c:149
 #, c-format
@@ -2910,11 +2910,11 @@ msgstr ""
 
 #: ../bin/doption.c:217
 msgid "Off"
-msgstr ""
+msgstr "Выкл"
 
 #: ../bin/doption.c:217
 msgid "On"
-msgstr ""
+msgstr "Вкл"
 
 #: ../bin/doption.c:218
 msgid "Track Descriptions"
@@ -2962,11 +2962,11 @@ msgstr "Цвета слоёв"
 
 #: ../bin/doption.c:229
 msgid "Draw Tunnel"
-msgstr ""
+msgstr "Рисовать туннели"
 
 #: ../bin/doption.c:230
 msgid "Draw EndPts"
-msgstr ""
+msgstr "Рисовать концы"
 
 #: ../bin/doption.c:231
 msgid "Draw Ties"
@@ -2974,27 +2974,27 @@ msgstr ""
 
 #: ../bin/doption.c:232
 msgid "Draw Centers"
-msgstr ""
+msgstr "Рисовать центры"
 
 #: ../bin/doption.c:233
 msgid "Two Rail Scale"
-msgstr ""
+msgstr "Масштаб двухколейки"
 
 #: ../bin/doption.c:234
 msgid "Map Scale"
-msgstr ""
+msgstr "Масштаб карты"
 
 #: ../bin/doption.c:237
 msgid "Label Enable"
-msgstr ""
+msgstr "Подписи"
 
 #: ../bin/doption.c:238
 msgid "Label Scale"
-msgstr ""
+msgstr "Масштаб надписей"
 
 #: ../bin/doption.c:239
 msgid "Label Font Size"
-msgstr ""
+msgstr "Размер шрифта"
 
 #: ../bin/doption.c:240
 msgid "Hot Bar Labels"
@@ -3010,7 +3010,7 @@ msgstr ""
 
 #: ../bin/doption.c:245
 msgid "Car Labels"
-msgstr ""
+msgstr "Надписи машин"
 
 #: ../bin/doption.c:246
 msgid "Train Update Delay"
@@ -3266,31 +3266,31 @@ msgstr ""
 
 #: ../bin/doption.c:517
 msgid "Preferences"
-msgstr ""
+msgstr "Настройки"
 
 #: ../bin/doption.c:556
 msgid "Marker"
-msgstr ""
+msgstr "Маркер"
 
 #: ../bin/doption.c:557
 msgid "Border"
-msgstr ""
+msgstr "Граница"
 
 #: ../bin/doption.c:558
 msgid "Primary Axis"
-msgstr ""
+msgstr "Главные оси"
 
 #: ../bin/doption.c:559
 msgid "Secondary Axis"
-msgstr ""
+msgstr "Дополнительные оси"
 
 #: ../bin/doption.c:560
 msgid "Normal Track"
-msgstr ""
+msgstr "Трек"
 
 #: ../bin/doption.c:561
 msgid "Selected Track"
-msgstr ""
+msgstr "Выбранный трек"
 
 #: ../bin/doption.c:562
 msgid "Profile Path"
@@ -3302,11 +3302,11 @@ msgstr ""
 
 #: ../bin/doption.c:564
 msgid "Track Ties"
-msgstr ""
+msgstr "Шпалы"
 
 #: ../bin/dpricels.c:46
 msgid "Price"
-msgstr ""
+msgstr "Цена"
 
 #: ../bin/dpricels.c:60
 msgid "Flex Track"
@@ -3314,11 +3314,11 @@ msgstr ""
 
 #: ../bin/dpricels.c:61
 msgid "costs"
-msgstr ""
+msgstr "стоит"
 
 #: ../bin/dpricels.c:155
 msgid "Price List"
-msgstr ""
+msgstr "Прайслист"
 
 #: ../bin/dprmfile.c:102
 #, c-format
@@ -3327,35 +3327,35 @@ msgstr ""
 
 #: ../bin/dprmfile.c:221
 msgid "Show File Names"
-msgstr ""
+msgstr "Показывать имена файлов"
 
 #: ../bin/dprmfile.c:230 ../bin/dprmfile.c:334
 msgid "Unload"
-msgstr ""
+msgstr "Выгрузить"
 
 #: ../bin/dprmfile.c:231
 msgid "Browse ..."
-msgstr ""
+msgstr "Выбрать ..."
 
 #: ../bin/dprmfile.c:334
 msgid "Reload"
-msgstr ""
+msgstr "Перезагрузить"
 
 #: ../bin/dprmfile.c:438
 msgid "Parameter Files"
-msgstr ""
+msgstr "Файлы параметров"
 
 #: ../bin/dprmfile.c:439
 msgid "Load Parameters"
-msgstr ""
+msgstr "Загрузить параметры"
 
 #: ../bin/dprmfile.c:439
 msgid "Parameter files|*.xtp"
-msgstr ""
+msgstr "Файлы параметров|*.xtp"
 
 #: ../bin/draw.c:1308 ../bin/macro.c:600 ../bin/misc.c:559
 msgid "Quit"
-msgstr ""
+msgstr "Выход"
 
 #: ../bin/draw.c:1790
 #, c-format
@@ -4325,7 +4325,7 @@ msgstr "Экспорт DXF"
 
 #: ../bin/misc.c:2121
 msgid "Parameter &Files ..."
-msgstr "Настройки файлов ..."
+msgstr "Файлы параметров ..."
 
 #: ../bin/misc.c:2122
 msgid "No&tes ..."
@@ -4582,7 +4582,7 @@ msgstr ""
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:101
 #: ../../../build/xtc_4-2-3dev/app/i18n/custmsg.h:40
 msgid "Profile"
-msgstr ""
+msgstr "Профиль"
 
 #: ../bin/cprofile.c:487
 #, c-format
@@ -4981,6 +4981,11 @@ msgid ""
 "Parameter Files dialog or create a Prototype\n"
 "definition using the Car Prototype dialog."
 msgstr ""
+"MSG_NO_CARPROTO\tНеопределено ниодного типа вагона....\tНеопределено "
+"ниодного типа вагона.\n"
+"Загрузите типы вагонов из файла через Файл->Файлы параметров\n"
+"Parameter Files dialog or create a Prototype\n"
+"definition using the Car Prototype dialog."
 
 #: ../../../build/xtc_4-2-3dev/app/help/messages.h:54
 msgid "MSG_CARIMP_NO_DATA\tNo data present in Car Import file."
@@ -5442,6 +5447,9 @@ msgid ""
 "\n"
 "Are you sure you want to Close?"
 msgstr ""
+"Имеются несохранённые изменения этого объекта.\n"
+"\n"
+"Вы уверены, что хотите закрыть?"
 
 #: ../../../build/xtc_4-2-3dev/app/help/messages.h:129
 #, c-format
@@ -5728,7 +5736,7 @@ msgstr ""
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:57
 msgid "Create a dimension line"
-msgstr ""
+msgstr "Добавить выноску с размером"
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:58
 msgid "Create a filled box"
@@ -5888,7 +5896,7 @@ msgstr ""
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:99
 msgid "Loads and unloads parameter files"
-msgstr ""
+msgstr "Загрузить или выгрузить файлы параметров"
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:100
 msgid "Elevation Profile Command"
@@ -6022,12 +6030,12 @@ msgstr ""
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:139
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:151
 msgid "Zoom in"
-msgstr ""
+msgstr "Приблизить"
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:140
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:152
 msgid "Zoom out"
-msgstr ""
+msgstr "Отдалить"
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:141
 msgid "File Menu"
@@ -6067,16 +6075,16 @@ msgstr "Правка"
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:150
 msgid "Redraw layout"
-msgstr ""
+msgstr "Перерисовать слой"
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:153
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:156
 msgid "Tools menu"
-msgstr ""
+msgstr "Меню Инструменты"
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:154
 msgid "View menu"
-msgstr ""
+msgstr "Меню Вид"
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:155
 msgid "Toolbar configuration"
@@ -6084,7 +6092,7 @@ msgstr ""
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:157
 msgid "Options menu"
-msgstr ""
+msgstr "Меню Опций"
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:158
 msgid "Playback/Record commands"
@@ -6235,15 +6243,15 @@ msgstr ""
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:198
 msgid "Length of car body"
-msgstr ""
+msgstr "Длина вагона"
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:199
 msgid "Width of car body"
-msgstr ""
+msgstr "Ширина вагона"
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:200
 msgid "Distance between Trucks "
-msgstr ""
+msgstr "Расстояние между колёсами"
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:201
 msgid "Coupler are mounted on body or truck"
@@ -6259,7 +6267,7 @@ msgstr ""
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:204
 msgid "Diagram of Car"
-msgstr ""
+msgstr "Схема вагона"
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:205
 msgid "Item Index Number"
@@ -6307,19 +6315,19 @@ msgstr ""
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:219
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:220
 msgid "Sort the Item list"
-msgstr ""
+msgstr "Сортировать список"
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:222
 msgid "Edit the selected Car Item"
-msgstr ""
+msgstr "Изменить выбранные машины"
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:223
 msgid "Add a new Car Item"
-msgstr ""
+msgstr "Добавить новую машину"
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:224
 msgid "Delete the selected Car Items"
-msgstr ""
+msgstr "Удалить выбранные машины"
 
 #: ../../../build/xtc_4-2-3dev/app/bin/bllnhlp.c:225
 msgid "Import a Car Item .csv file"
