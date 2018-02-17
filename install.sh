@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VERSION=4.2.3
+VERSION=4.2.4
 
 msgfmt ./$VERSION/xtrkcad.po -o ./$VERSION/xtrkcad.mo
 sudo cp ./$VERSION/xtrkcad.mo /usr/share/locale/ru/LC_MESSAGES/
