@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: xtrkcad 5.1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-11 14:36+0300\n"
-"PO-Revision-Date: 2018-11-12 20:50+0300\n"
+"PO-Revision-Date: 2019-02-12 13:00+0300\n"
 "Last-Translator: CupIvan <mail@cupivan.ru>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.1\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #: ../bin/cbezier.c:590
@@ -52,15 +52,15 @@ msgstr ""
 
 #: ../bin/cbezier.c:660
 msgid "Bezier is Straight Line"
-msgstr ""
+msgstr "Безье к прямой линии"
 
 #: ../bin/cbezier.c:662
 msgid "Bezier %s : Min Radius=%s Length=%s fx=%0.3f fy=%0.3f cusp=%0.3f"
-msgstr ""
+msgstr "Безье %s : Мин. радиус=%s Длина=%s fx=%0.3f fy=%0.3f выступ=%0.3f"
 
 #: ../bin/cbezier.c:666
 msgid "Bezier %s : Min Radius=%s Length=%s"
-msgstr ""
+msgstr "Безье %s : Мин. радиус=%s Длина=%s"
 
 #: ../bin/cbezier.c:695
 msgid "No unconnected End Point to lock to"
@@ -80,7 +80,7 @@ msgstr ""
 
 #: ../bin/cbezier.c:720
 msgid "Bezier curve is straight line"
-msgstr ""
+msgstr "Кривая Безье - это прямая линия"
 
 #: ../bin/cbezier.c:735 ../bin/cbezier.c:749
 msgid "Invalid Bezier Track - end points are identical"
@@ -290,7 +290,7 @@ msgstr "Отключить скрипт"
 
 #: ../bin/ccontrol.c:237
 msgid "Change Control"
-msgstr ""
+msgstr "Изменение управления"
 
 #: ../bin/ccontrol.c:279 ../bin/csensor.c:249
 msgid "(%d [%s]): Layer=%d, at %0.3f,%0.3f"
@@ -298,7 +298,7 @@ msgstr "(%d [%s]): Слой=%d, по %0.3f,%0.3f"
 
 #: ../bin/ccontrol.c:292 ../bin/ccontrol.c:618
 msgid "Control"
-msgstr ""
+msgstr "Управление"
 
 #: ../bin/ccontrol.c:410
 msgid "Origin X"
@@ -310,7 +310,7 @@ msgstr "Координата Y"
 
 #: ../bin/ccontrol.c:428
 msgid "Create Control"
-msgstr ""
+msgstr "Создать управление"
 
 #: ../bin/ccontrol.c:431
 msgid "Modify Control"
@@ -630,7 +630,7 @@ msgstr "Кривая по хорде"
 
 #: ../bin/ccurve.c:794 ../bin/cdraw.c:1195
 msgid "Bezier Curve"
-msgstr ""
+msgstr "Кривая Безье"
 
 #: ../bin/ccurve.c:797 ../bin/tcurve.c:634
 msgid "Circle Track"
@@ -658,7 +658,7 @@ msgstr "Размер шрифта должен быть больше нуля"
 
 #: ../bin/cdraw.c:230 ../bin/tcurve.c:359
 msgid "Center: X,Y"
-msgstr ""
+msgstr "Центр: X,Y"
 
 #: ../bin/cdraw.c:233 ../bin/cdraw.c:243 ../bin/compound.c:498 ../bin/compound.c:503 ../bin/compound.c:508 ../bin/compound.c:513 ../bin/compound.c:519 ../bin/cprint.c:143 ../bin/csignal.c:237 ../bin/csignal.c:498 ../bin/ctodesgn.c:144 ../bin/ctodesgn.c:146
 #: ../bin/ctodesgn.c:189 ../bin/ctodesgn.c:212 ../bin/ctodesgn.c:214 ../bin/ctodesgn.c:250 ../bin/ctodesgn.c:253 ../bin/ctodesgn.c:287 ../bin/ctodesgn.c:291 ../bin/ctodesgn.c:328 ../bin/ctodesgn.c:348 ../bin/ctodesgn.c:369 ../bin/ctodesgn.c:468
@@ -756,7 +756,7 @@ msgstr ""
 
 #: ../bin/cdraw.c:522 ../bin/cdraw.c:537
 msgid "Freeform"
-msgstr ""
+msgstr "Свободное трансформирование"
 
 #: ../bin/cdraw.c:525
 msgid "Polygonal Line"
@@ -1008,15 +1008,15 @@ msgstr ""
 
 #: ../bin/celev.c:204
 msgid "Set Elevation"
-msgstr ""
+msgstr "Установить подъём"
 
 #: ../bin/celev.c:308 ../bin/celev.c:325
 msgid "Elev = %s"
-msgstr ""
+msgstr "Подъем = %s"
 
 #: ../bin/celev.c:310 ../bin/celev.c:327
 msgid "Dist = %s"
-msgstr ""
+msgstr "Длина = %s"
 
 #: ../bin/celev.c:316 ../bin/celev.c:333 ../bin/celev.c:374 ../bin/celev.c:381 ../bin/celev.c:384
 msgid "Undefined"
@@ -1106,11 +1106,11 @@ msgstr ""
 
 #: ../bin/chndldto.c:139
 msgid "Select point position"
-msgstr ""
+msgstr "Выберите позицию точки"
 
 #: ../bin/chndldto.c:153 ../bin/chndldto.c:178
 msgid "points"
-msgstr ""
+msgstr "точки"
 
 #: ../bin/chndldto.c:275
 msgid "Length = %0.2f Angle = %0.2f Frog# = %0.2f"
@@ -1126,11 +1126,11 @@ msgstr ""
 
 #: ../bin/cjoin.c:172
 msgid "Curved Track: Radius=%s Length=%s"
-msgstr ""
+msgstr "Изогнутый трек: Радиус=%s Длина=%s"
 
 #: ../bin/cjoin.c:258
 msgid "Curved Track: Radius=%s Length=%s Angle=%0.3f"
-msgstr ""
+msgstr "Изогнутый трек: Радиус=%s Длина=%s Угол=%0.3f"
 
 #: ../bin/cjoin.c:354
 msgid "Track (%d) is too short for transition-curve by %0.3f"
@@ -1150,15 +1150,15 @@ msgstr ""
 
 #: ../bin/cjoin.c:423
 msgid "unselected"
-msgstr ""
+msgstr "невыбранные"
 
 #: ../bin/cjoin.c:423 ../bin/cprint.c:148
 msgid "selected"
-msgstr ""
+msgstr "выбранные"
 
 #: ../bin/cjoin.c:459
 msgid "Left click - join with track"
-msgstr ""
+msgstr "Левый клик - соединить с треком"
 
 #: ../bin/cjoin.c:461
 msgid "Left click - join with track, Shift Left click - move to join"
@@ -1166,7 +1166,7 @@ msgstr ""
 
 #: ../bin/cjoin.c:496 ../bin/cjoin.c:815 ../bin/cjoin.c:824
 msgid "Select 2nd track"
-msgstr ""
+msgstr "Выберите второй трек"
 
 #: ../bin/cjoin.c:623
 msgid "Beyond end of 2nd track"
@@ -1310,7 +1310,7 @@ msgstr ""
 
 #: ../bin/compound.c:758 ../bin/cstruct.c:772 ../bin/cstruct.c:917
 msgid "Structure"
-msgstr ""
+msgstr "Структура"
 
 #: ../bin/compound.c:760 ../bin/cswitchmotor.c:221 ../bin/cturnout.c:894 ../bin/cturnout.c:2406 ../bin/cturnout.c:2576
 msgid "Turnout"
@@ -1495,7 +1495,7 @@ msgstr ""
 
 #: ../bin/cprofile.c:680 ../bin/cprofile.c:1284
 msgid "Drag to change Elevation"
-msgstr ""
+msgstr "Тяни, чтобы изменить подъём"
 
 #: ../bin/cprofile.c:747
 msgid "Select a Defined Elevation to start Profile"
@@ -1527,15 +1527,15 @@ msgstr ""
 
 #: ../bin/cpull.c:613
 msgid "Select first end-point to connect"
-msgstr ""
+msgstr "Выберите первый конец для соединения"
 
 #: ../bin/cpull.c:615
 msgid "Select first end-point to connect, or Right-Click for connecting selected tracks"
-msgstr ""
+msgstr "Выберите первый конец для соединения или щёлкните правой кнопкой мыши для соединения выбранных треков"
 
 #: ../bin/cpull.c:630
 msgid "Select second end-point to connect"
-msgstr ""
+msgstr "Выберите второй конец для соединения"
 
 #: ../bin/cpull.c:669
 msgid "Connect Multiple Tracks - Select multiple tracks to join first"
@@ -2989,15 +2989,15 @@ msgstr ""
 
 #: ../bin/dcar.c:4083
 msgid "Purc Price"
-msgstr ""
+msgstr "Цена покупки"
 
 #: ../bin/dcar.c:4084 ../bin/dcar.c:4089
 msgid "Curr Price"
-msgstr ""
+msgstr "Текущ. цена"
 
 #: ../bin/dcar.c:4084
 msgid "Purc Date"
-msgstr ""
+msgstr "Дата покупки"
 
 #: ../bin/dcar.c:4084
 msgid "Srvc Date"
@@ -3013,11 +3013,11 @@ msgstr ""
 
 #: ../bin/dcar.c:4088
 msgid "Purch Price"
-msgstr ""
+msgstr "Цена покупки"
 
 #: ../bin/dcar.c:4089
 msgid "Purch Date"
-msgstr ""
+msgstr "Дата покупки"
 
 #: ../bin/dcar.c:4106
 msgid "Sort By"
@@ -3057,7 +3057,7 @@ msgstr ""
 
 #: ../bin/dcar.c:4715 ../bin/dcar.c:4766
 msgid "Export Cars"
-msgstr ""
+msgstr "Экспорт машин"
 
 #: ../bin/dcar.c:4800
 msgid "Layout"
@@ -3065,7 +3065,7 @@ msgstr "Проект"
 
 #: ../bin/dcar.c:4802
 msgid "Shelf"
-msgstr ""
+msgstr "Полка"
 
 #: ../bin/dcmpnd.c:76 ../bin/dlayer.c:456 ../bin/misc.c:569 ../bin/misc.c:598
 msgid "Load"
@@ -3705,7 +3705,7 @@ msgstr "Цена"
 
 #: ../bin/dpricels.c:59
 msgid "Flex Track"
-msgstr ""
+msgstr "Изогнутый трек"
 
 #: ../bin/dpricels.c:60
 msgid "costs"
@@ -4162,7 +4162,7 @@ msgstr "Поезда"
 
 #: ../bin/misc.c:1752
 msgid "Create Misc Buttons"
-msgstr ""
+msgstr "Различные кнопоки"
 
 #: ../bin/misc.c:1753
 msgid "Ruler Button"
@@ -4554,7 +4554,7 @@ msgstr "Недавние сообщения"
 
 #: ../bin/misc.c:2410
 msgid "Tip of the Day..."
-msgstr "Совет Дня..."
+msgstr "Совет дня..."
 
 #: ../bin/misc.c:2411
 msgid "&Demos"
@@ -4713,7 +4713,7 @@ msgstr "Следующий"
 
 #: ../bin/smalldlg.c:89
 msgid "Tip of the Day"
-msgstr "Совет Дня"
+msgstr "Совет дня"
 
 #: ../bin/smalldlg.c:98
 msgid "No tips are available"
@@ -4813,7 +4813,7 @@ msgstr ""
 
 #: ../bin/tcurve.c:554
 msgid "Curved Track(%d): Layer=%d Radius=%s Length=%s Center=[%s,%s] EP=[%0.3f,%0.3f A%0.3f] [%0.3f,%0.3f A%0.3f]"
-msgstr ""
+msgstr "Изогнутый трек(%d): Слой=%d Радиус=%s Длина=%s Центр=[%s,%s] EP=[%0.3f,%0.3f A%0.3f] [%0.3f,%0.3f A%0.3f]"
 
 #: ../bin/tcurve.c:631
 msgid "Helix Track"
@@ -5139,7 +5139,7 @@ msgstr ""
 
 #: ../../../../build/work/app/help/messages.h:42
 msgid "MSG_CURVE_TOO_LARGE\tCurved track is too large."
-msgstr ""
+msgstr "MSG_CURVE_TOO_LARGE\tИзогнутый трек слишком большой."
 
 #: ../../../../build/work/app/help/messages.h:43
 msgid ""
@@ -5346,7 +5346,7 @@ msgstr ""
 
 #: ../../../../build/work/app/help/messages.h:83
 msgid "MSG_TOO_FAR_APART_DIVERGE\tSelected tracks deviate too much or are too far apart from each other."
-msgstr ""
+msgstr "Выбранные треки слишком сильно отклоняются или находятся слишком далеко друг от друга."
 
 #: ../../../../build/work/app/help/messages.h:84
 msgid "MSG_COMMAND_DISABLED\tSpecified command disabled."
@@ -5869,7 +5869,7 @@ msgstr "Удалить объекты"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:41
 msgid "Playback demos"
-msgstr "Включить демонстрацию"
+msgstr "Воспроизведение демонстраций"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:42
 msgid "Change Object Properties"
@@ -6061,11 +6061,11 @@ msgstr "Показать/Спрятать окно миникарты"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:90
 msgid "Modify or extend a track"
-msgstr ""
+msgstr "Изменить или расширить трек"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:91
 msgid "Move selected objects"
-msgstr ""
+msgstr "Двигать выбранные объекты"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:92
 msgid "Move a label"
@@ -6073,11 +6073,11 @@ msgstr "Перемещайте подпись"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:93
 msgid "Move selected objects to current layer"
-msgstr ""
+msgstr "Переместить выбранные объекты на текущий слой"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:95
 msgid "Print a BitMap"
-msgstr ""
+msgstr "Печать изображения"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:96
 msgid "Pan or Zoom the Layout"
@@ -6197,7 +6197,7 @@ msgstr ""
 
 #: ../../../../build/work/app/bin/bllnhlp.c:127
 msgid "Tip of the Day window"
-msgstr "Совет Дня"
+msgstr "Совет дня"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:128
 msgid "Run Trains"
@@ -6333,7 +6333,7 @@ msgstr "Меню Помощь"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:165
 msgid "Recent error messages and explanations"
-msgstr ""
+msgstr "Последние сообщения об ошибках и объяснения"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:166
 msgid "Move Hot Bar left"
@@ -6813,7 +6813,7 @@ msgstr "Это список компонентов для проекта"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:334
 msgid "Enable prices on the Parts List"
-msgstr ""
+msgstr "Добавить цены в списке компонентов"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:335 ../../../../build/work/app/bin/bllnhlp.c:338
 msgid "Spacing between major grid lines"
@@ -7333,7 +7333,7 @@ msgstr "Показать предыдущий совет дня"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:493
 msgid "Controls which Command Buttons are displayed"
-msgstr ""
+msgstr "Показать или спрятать панель"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:494
 msgid "List of Cars"
@@ -7501,7 +7501,7 @@ msgstr ""
 
 #: ../../../../build/work/app/bin/bllnhlp.c:551
 msgid "Displays the Print Setup window to change printers, orientation, paper size, etc."
-msgstr ""
+msgstr "Открыть оно настроек печати для выбора принтера, ориентации страницы, бумаги и др."
 
 #: ../../../../build/work/app/bin/bllnhlp.c:552
 msgid "Closes this dialog"
@@ -10026,31 +10026,31 @@ msgstr ""
 
 #: ../../../../build/work/app/i18n/custmsg.h:603
 msgid "Introduction"
-msgstr ""
+msgstr "Вступление"
 
 #: ../../../../build/work/app/i18n/custmsg.h:604
 msgid "Mouse Actions"
-msgstr ""
+msgstr "События мыши"
 
 #: ../../../../build/work/app/i18n/custmsg.h:605
 msgid "Dialogs"
-msgstr ""
+msgstr "Диалоговые окна"
 
 #: ../../../../build/work/app/i18n/custmsg.h:606
 msgid "Moving about"
-msgstr ""
+msgstr "Перемещения"
 
 #: ../../../../build/work/app/i18n/custmsg.h:607
 msgid "Describe and Select"
-msgstr ""
+msgstr "Подпись и выбор"
 
 #: ../../../../build/work/app/i18n/custmsg.h:608
 msgid "Describe"
-msgstr ""
+msgstr "Подпись"
 
 #: ../../../../build/work/app/i18n/custmsg.h:610
 msgid "Simple tracks"
-msgstr ""
+msgstr "Простые трек"
 
 #: ../../../../build/work/app/i18n/custmsg.h:611
 msgid "Straight tracks"
@@ -10058,7 +10058,7 @@ msgstr "Прямые треки"
 
 #: ../../../../build/work/app/i18n/custmsg.h:612
 msgid "Curved tracks"
-msgstr ""
+msgstr "Кривые треки"
 
 #: ../../../../build/work/app/i18n/custmsg.h:613
 msgid "Circles"
@@ -10070,27 +10070,27 @@ msgstr ""
 
 #: ../../../../build/work/app/i18n/custmsg.h:615
 msgid "Modifying tracks"
-msgstr ""
+msgstr "Изменение треков"
 
 #: ../../../../build/work/app/i18n/custmsg.h:616
 msgid "Modifying end points "
-msgstr ""
+msgstr "Изменение конечных точек"
 
 #: ../../../../build/work/app/i18n/custmsg.h:617
 msgid "Extending"
-msgstr ""
+msgstr "Расширение"
 
 #: ../../../../build/work/app/i18n/custmsg.h:618
 msgid "Medium and Thick Tracks"
-msgstr ""
+msgstr "Средние и толстые треки"
 
 #: ../../../../build/work/app/i18n/custmsg.h:619
 msgid "Joining Tracks"
-msgstr ""
+msgstr "Соединение треков"
 
 #: ../../../../build/work/app/i18n/custmsg.h:620
 msgid "Straight to straight"
-msgstr ""
+msgstr "Прямая к прямой"
 
 #: ../../../../build/work/app/i18n/custmsg.h:621
 msgid "Curve to straight"
@@ -10142,11 +10142,11 @@ msgstr ""
 
 #: ../../../../build/work/app/i18n/custmsg.h:634
 msgid "Elevations and Profile"
-msgstr ""
+msgstr "Подъемы и профиль"
 
 #: ../../../../build/work/app/i18n/custmsg.h:635
 msgid "Elevations"
-msgstr ""
+msgstr "Подъемы"
 
 #: ../../../../build/work/app/i18n/custmsg.h:637
 msgid "Misc track commands"
@@ -10178,7 +10178,7 @@ msgstr ""
 
 #: ../../../../build/work/app/i18n/custmsg.h:646
 msgid "Other commands"
-msgstr ""
+msgstr "Остальные команды"
 
 #: ../../../../build/work/app/i18n/custmsg.h:648
 msgid "Table Edges"
