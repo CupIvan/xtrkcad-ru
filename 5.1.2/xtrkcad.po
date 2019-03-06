@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xtrkcad 5.1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-11 14:36+0300\n"
-"PO-Revision-Date: 2019-02-12 13:00+0300\n"
+"PO-Revision-Date: 2019-03-06 10:41+0300\n"
 "Last-Translator: CupIvan <mail@cupivan.ru>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -3953,7 +3953,7 @@ msgstr " Макс. наклон трека (%)"
 
 #: ../bin/layout.c:311
 msgid "Layout Options"
-msgstr ""
+msgstr "Настройки слоя"
 
 #: ../bin/macro.c:90
 msgid "Message"
@@ -6921,31 +6921,31 @@ msgstr ""
 
 #: ../../../../build/work/app/bin/bllnhlp.c:370 ../../../../build/work/app/bin/bllnhlp.c:371
 msgid "Specifies the size of the room (in inches or centimeters)"
-msgstr ""
+msgstr "Определяет размер комнаты (в дюймах или сантиметрах)"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:372
 msgid "Specifies the layout Title that will appear on printouts"
-msgstr ""
+msgstr "Определяет заголовок слоя, который будет виден при печати"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:373
 msgid "Specifies the layout Subtitle that will appear on printouts"
-msgstr ""
+msgstr "Определяет подзаголовок слоя, который будет виден при печати"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:374
 msgid "Specifies the Modelling Scale"
-msgstr ""
+msgstr "Определяет масштаб модели"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:375
 msgid "Specifies the rail gauge, ie. the distance between the rails"
-msgstr ""
+msgstr "Определяет ширину колеи, т.е. расстояние между рельсами"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:376
 msgid "Specifies minimum track radius (in inches or centimeters). Tracks with a smaller radius are considered exceptional."
-msgstr ""
+msgstr "Определяет минимальную кривизну трека(в дюймах или сантиметрах). Треки с меньшим радиусом исключаются."
 
 #: ../../../../build/work/app/bin/bllnhlp.c:377
 msgid "Specifies maximum track elevation expressed as a percent (%). Tracks with a larger elevation are considered exceptional."
-msgstr ""
+msgstr "Определяет максимальный подъем трека в процентах (%). Треки с большим подъемом исключаются."
 
 #: ../../../../build/work/app/bin/bllnhlp.c:380
 msgid "This is the body of the Note.  To change this select Modify from the File Menu"
@@ -7687,7 +7687,7 @@ msgstr ""
 
 #: ../../../../build/work/app/i18n/custmsg.h:34
 msgid "Right-Click on the Main window displays a menu list of commands as an alternative to pressing the buttons on the tool bar or using the menu accelerator keys."
-msgstr ""
+msgstr "Если кликнуть правой кнопкой мыши на главном окне, то отобразится меню со списком команд аналогичным кнопкам в панели инструментов или в \"горячих клавишах\"."
 
 #: ../../../../build/work/app/i18n/custmsg.h:35
 msgid "Holding down the Shift key while you Right-Click will display options for the current command (if any)."
