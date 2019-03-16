@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xtrkcad 5.1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-11 14:36+0300\n"
-"PO-Revision-Date: 2019-03-06 10:41+0300\n"
+"PO-Revision-Date: 2019-03-16 11:14+0300\n"
 "Last-Translator: CupIvan <mail@cupivan.ru>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -538,7 +538,7 @@ msgstr "Добавить изогнутый трек"
 
 #: ../bin/ccurve.c:491
 msgid "Elevation Difference"
-msgstr "Разнице высот"
+msgstr "Разница высот"
 
 #: ../bin/ccurve.c:492 ../bin/cdraw.c:231 ../bin/compound.c:500 ../bin/compound.c:505 ../bin/compound.c:510 ../bin/compound.c:515 ../bin/ctodesgn.c:467 ../bin/tbezier.c:238 ../bin/tbezier.c:245 ../bin/tcornu.c:293 ../bin/tcurve.c:360
 msgid "Radius"
@@ -550,7 +550,7 @@ msgstr "Повороты"
 
 #: ../bin/ccurve.c:494
 msgid "Angular Separation"
-msgstr ""
+msgstr "Деление угла"
 
 #: ../bin/ccurve.c:495 ../bin/celev.c:45 ../bin/compound.c:517 ../bin/tbezier.c:250 ../bin/tcornu.c:300 ../bin/tcurve.c:367 ../bin/tease.c:513 ../bin/tstraigh.c:91
 msgid "Grade"
@@ -558,15 +558,15 @@ msgstr "Наклон"
 
 #: ../bin/ccurve.c:496
 msgid "Vertical Separation"
-msgstr ""
+msgstr "Деление вертикали"
 
 #: ../bin/ccurve.c:498
 msgid "Total Length"
-msgstr ""
+msgstr "Общая длина"
 
 #: ../bin/ccurve.c:574
 msgid "Total Length  %s"
-msgstr ""
+msgstr "Общая длина  %s"
 
 #: ../bin/ccurve.c:613 ../bin/ccurve.c:818 ../bin/tcurve.c:794
 msgid "Helix"
@@ -700,7 +700,7 @@ msgstr "Размер"
 
 #: ../bin/cdraw.c:242 ../bin/compound.c:518 ../bin/tease.c:507
 msgid "Origin: X,Y"
-msgstr ""
+msgstr "Начало: X,Y"
 
 #: ../bin/cdraw.c:244 ../bin/ctext.c:64 ../bin/ctext.c:154
 msgid "Font Size"
@@ -736,7 +736,7 @@ msgstr "Размеры линии"
 
 #: ../bin/cdraw.c:482 ../bin/cdraw.c:970 ../bin/cdraw.c:1189
 msgid "Table Edge"
-msgstr ""
+msgstr "Край стола"
 
 #: ../bin/cdraw.c:494 ../bin/cdraw.c:975 ../bin/cdraw.c:976 ../bin/cdraw.c:977
 msgid "Circle"
@@ -752,7 +752,7 @@ msgstr "Круг"
 
 #: ../bin/cdraw.c:519 ../bin/cdraw.c:534
 msgid "Rectangle"
-msgstr ""
+msgstr "Прямоугольник"
 
 #: ../bin/cdraw.c:522 ../bin/cdraw.c:537
 msgid "Freeform"
@@ -760,7 +760,7 @@ msgstr "Свободное трансформирование"
 
 #: ../bin/cdraw.c:525
 msgid "Polygonal Line"
-msgstr ""
+msgstr "Линия многоугольника"
 
 #: ../bin/cdraw.c:540 ../bin/cdraw.c:984 ../bin/cdraw.c:1207
 msgid "Polygon"
@@ -792,7 +792,7 @@ msgstr ""
 
 #: ../bin/cdraw.c:967
 msgid "Straight"
-msgstr ""
+msgstr "Прямая"
 
 #: ../bin/cdraw.c:968
 msgid "Dimension"
@@ -800,39 +800,39 @@ msgstr ""
 
 #: ../bin/cdraw.c:971 ../bin/cdraw.c:972 ../bin/cdraw.c:973 ../bin/cdraw.c:974
 msgid "Curved"
-msgstr ""
+msgstr "Изогнутый"
 
 #: ../bin/cdraw.c:978 ../bin/cdraw.c:1204
 msgid "Box"
-msgstr ""
+msgstr "Прямоугольник"
 
 #: ../bin/cdraw.c:979
 msgid "Polyline"
-msgstr ""
+msgstr "Полилиния"
 
 #: ../bin/cdraw.c:983 ../bin/cdraw.c:1205
 msgid "Filled Box"
-msgstr ""
+msgstr "Закрашенный прямоугольник"
 
 #: ../bin/cdraw.c:985 ../bin/tbezier.c:438
 msgid "Bezier Line"
-msgstr ""
+msgstr "Кривая Безье"
 
 #: ../bin/cdraw.c:1030
 msgid "%s Line Width"
-msgstr ""
+msgstr "%s ширина линии"
 
 #: ../bin/cdraw.c:1044
 msgid "%s Color"
-msgstr ""
+msgstr "%s Цвет"
 
 #: ../bin/cdraw.c:1072
 msgid "Dimension Line Size"
-msgstr ""
+msgstr "Размер линии"
 
 #: ../bin/cdraw.c:1085
 msgid "Drag to create Table Edge"
-msgstr ""
+msgstr "Тащите, чтобы создать край стола"
 
 #: ../bin/cdraw.c:1186
 msgid "Line"
@@ -892,7 +892,7 @@ msgstr "Рисовать кривую от хорды"
 
 #: ../bin/cdraw.c:1195
 msgid "Draw Bezier"
-msgstr ""
+msgstr "Рисовать кривую Безье"
 
 #: ../bin/cdraw.c:1198
 msgid "Circle Tangent"
@@ -984,15 +984,15 @@ msgstr "Нет"
 
 #: ../bin/celev.c:44
 msgid "Defined"
-msgstr ""
+msgstr "По-умолчанию"
 
 #: ../bin/celev.c:44
 msgid "Hidden"
-msgstr ""
+msgstr "Скрытая"
 
 #: ../bin/celev.c:45
 msgid "Computed"
-msgstr ""
+msgstr "Вычисленная"
 
 #: ../bin/celev.c:45
 msgid "Station"
@@ -1004,11 +1004,11 @@ msgstr "Игнорировать"
 
 #: ../bin/celev.c:123 ../bin/celev.c:168
 msgid "There are no reachable Defined Elevations"
-msgstr ""
+msgstr "Нет достижимых высот"
 
 #: ../bin/celev.c:204
 msgid "Set Elevation"
-msgstr "Установить подъём"
+msgstr "Установить высоту"
 
 #: ../bin/celev.c:308 ../bin/celev.c:325
 msgid "Elev = %s"
@@ -1024,7 +1024,7 @@ msgstr "Неопределено"
 
 #: ../bin/celev.c:406 ../bin/celev.c:472
 msgid "Elevation"
-msgstr "Подъем"
+msgstr "Высота"
 
 #: ../bin/celev.c:406 ../bin/cmisc.c:438 ../bin/cprofile.c:1279 ../bin/dcontmgm.c:300 ../bin/dcustmgm.c:358 ../bin/dlayer.c:1026 ../bin/dpricels.c:154
 msgid "Done"
@@ -1040,11 +1040,11 @@ msgstr "Разгруппировать объект"
 
 #: ../bin/cgroup.c:603
 msgid "%d objects ungrouped"
-msgstr ""
+msgstr "%d объектов разгруппировано"
 
 #: ../bin/cgroup.c:605
 msgid "No objects ungrouped"
-msgstr ""
+msgstr "Нет объектов для разгруппировки"
 
 #: ../bin/cgroup.c:614
 msgid "Replace with new group?"
@@ -1062,11 +1062,11 @@ msgstr "Описание"
 
 #: ../bin/cgroup.c:621 ../bin/dcmpnd.c:452
 msgid "#"
-msgstr ""
+msgstr "#"
 
 #: ../bin/cgroup.c:622 ../bin/compound.c:524
 msgid "# Segments"
-msgstr ""
+msgstr "# сегментов"
 
 #: ../bin/cgroup.c:1088
 msgid "No endpts"
@@ -1090,7 +1090,7 @@ msgstr ""
 
 #: ../bin/chndldto.c:87
 msgid "frog"
-msgstr ""
+msgstr "стрелка"
 
 #: ../bin/chndldto.c:93
 msgid "Drag to set angle"
@@ -1098,11 +1098,11 @@ msgstr "Тащите для установки угла"
 
 #: ../bin/chndldto.c:134
 msgid "Angle = %0.2f Frog# = %0.2f"
-msgstr ""
+msgstr "Угол = %0.2f Стрелка# = %0.2f"
 
 #: ../bin/chndldto.c:136
 msgid "Frog angle is too close to 0"
-msgstr ""
+msgstr "Угол стрелки очень маленький"
 
 #: ../bin/chndldto.c:139
 msgid "Select point position"
@@ -1214,7 +1214,7 @@ msgstr "Изменить трек"
 
 #: ../bin/cmisc.c:550
 msgid "Select track to describe"
-msgstr "Выберите трек для изменения"
+msgstr "Выберите трек для описания"
 
 #: ../bin/cmisc.c:607 ../bin/doption.c:213
 msgid "Properties"
@@ -1439,19 +1439,19 @@ msgstr "Очистить"
 
 #: ../bin/cprint.c:147 ../bin/cprint.c:588
 msgid "0 pages"
-msgstr ""
+msgstr "0 страниц"
 
 #: ../bin/cprint.c:211 ../bin/cprint.c:260
 msgid "%d pages"
-msgstr ""
+msgstr "%d страниц"
 
 #: ../bin/cprint.c:380
 msgid "PrintScale 1:%ld   Room %s x %s   Model Scale %s   File %s"
-msgstr ""
+msgstr "Масштаб 1:%ld   Комната %s x %s   Масштаб модели %s   Файл %s"
 
 #: ../bin/cprint.c:669
 msgid "1 page"
-msgstr ""
+msgstr "1 страница"
 
 #: ../bin/cprint.c:1039 ../bin/cprofile.c:570 ../bin/ctodesgn.c:1720 ../bin/denum.c:55
 msgid "Print"
@@ -1459,7 +1459,7 @@ msgstr "Печать"
 
 #: ../bin/cprint.c:1061
 msgid "Select pages to print, or drag to move print grid"
-msgstr ""
+msgstr "Выберите страницы для печати или перетащите, чтобы передвинуть сетку"
 
 #: ../bin/cprint.c:1160
 msgid "Print..."
@@ -1471,23 +1471,23 @@ msgstr "Профиль"
 
 #: ../bin/cprofile.c:493
 msgid "%s Profile: %s"
-msgstr ""
+msgstr "%s Профиль: %s"
 
 #: ../bin/cprofile.c:641 ../bin/cprofile.c:651
 msgid "Elev = %0.1f"
-msgstr ""
+msgstr "Высота = %0.1f"
 
 #: ../bin/cprofile.c:653
 msgid "Elev=%0.2f %0.1f%%"
-msgstr ""
+msgstr "Высота=%0.2f %0.1f%%"
 
 #: ../bin/cprofile.c:657
 msgid "%0.1f%% Elev = %0.2f"
-msgstr ""
+msgstr "%0.1f%% Высота = %0.2f"
 
 #: ../bin/cprofile.c:661
 msgid "%0.1f%% Elev = %0.2f %0.1f%%"
-msgstr ""
+msgstr "%0.1f%% Высота = %0.2f %0.1f%%"
 
 #: ../bin/cprofile.c:672 ../bin/cprofile.c:1226
 msgid "Profile Command"
@@ -1495,19 +1495,19 @@ msgstr ""
 
 #: ../bin/cprofile.c:680 ../bin/cprofile.c:1284
 msgid "Drag to change Elevation"
-msgstr "Тяни, чтобы изменить подъём"
+msgstr "Тяни, чтобы изменить высоту"
 
 #: ../bin/cprofile.c:747
 msgid "Select a Defined Elevation to start Profile"
-msgstr ""
+msgstr "Выберите трек для начальной высоты"
 
 #: ../bin/cprofile.c:749
 msgid "Select a Defined Elevation to extend Profile"
-msgstr ""
+msgstr "Выберите трек для конечной высоты"
 
 #: ../bin/cprofile.c:1296
 msgid "Select a Defined Elevation to start profile"
-msgstr ""
+msgstr "Выберите трек для начальной высоты"
 
 #: ../bin/cprofile.c:1381
 msgid "Define"
@@ -1515,11 +1515,11 @@ msgstr ""
 
 #: ../bin/cpull.c:436 ../bin/cpull.c:589
 msgid "%d tracks moved"
-msgstr ""
+msgstr "%d треков перемещено"
 
 #: ../bin/cpull.c:479
 msgid "Pull Tracks"
-msgstr ""
+msgstr "Тяните треки"
 
 #: ../bin/cpull.c:553
 msgid "Tighten Tracks"
@@ -1579,11 +1579,11 @@ msgstr "Переместить на текущий слой"
 
 #: ../bin/cselect.c:470 ../bin/misc.c:2347
 msgid "Clear Elevations"
-msgstr "Очистить подъемы"
+msgstr "Очистить высоты"
 
 #: ../bin/cselect.c:514
 msgid "Add Elevations"
-msgstr "Добавить подъемы"
+msgstr "Добавить высоты"
 
 #: ../bin/cselect.c:529
 msgid "Refresh Compound"
@@ -1691,23 +1691,23 @@ msgstr ""
 
 #: ../bin/cselect.c:1586
 msgid "Select and drag a description"
-msgstr ""
+msgstr "Выберите и переместите подпись"
 
 #: ../bin/cselect.c:1642
 msgid "Move Label"
-msgstr ""
+msgstr "Переместить подпись"
 
 #: ../bin/cselect.c:1672
 msgid "Show Description"
-msgstr ""
+msgstr "Показать подпись"
 
 #: ../bin/cselect.c:1754
 msgid "Drag to mark mirror line"
-msgstr ""
+msgstr "Тащите, чтобы отметить ось зеркала"
 
 #: ../bin/cselect.c:1770
 msgid "Angle %0.2f"
-msgstr ""
+msgstr "Угол %0.2f"
 
 #: ../bin/cselect.c:1776
 msgid "Flip Tracks"
@@ -1715,7 +1715,7 @@ msgstr "Отзеркалить треки"
 
 #: ../bin/cselect.c:1940
 msgid "Select tracks"
-msgstr ""
+msgstr "Выберите треки"
 
 #: ../bin/cselect.c:2050 ../bin/dcar.c:1548 ../bin/doption.c:213 ../../../../build/work/app/i18n/custmsg.h:609
 msgid "Select"
@@ -1723,11 +1723,11 @@ msgstr "Выбрать"
 
 #: ../bin/cselect.c:2064 ../bin/cselect.c:2068 ../bin/doption.c:209
 msgid "Simple"
-msgstr ""
+msgstr "Простой"
 
 #: ../bin/cselect.c:2065 ../bin/cselect.c:2069
 msgid "End Points"
-msgstr ""
+msgstr "Конечные точки"
 
 #: ../bin/cselect.c:2074
 msgid "Align"
@@ -1891,7 +1891,7 @@ msgstr ""
 
 #: ../bin/csplit.c:68
 msgid "Select track to split"
-msgstr ""
+msgstr "Выберите трек для разделения"
 
 #: ../bin/csplit.c:84
 msgid "Can't Split that Track"
@@ -1899,23 +1899,23 @@ msgstr ""
 
 #: ../bin/csplit.c:108 ../bin/dbench.c:69 ../bin/dbench.c:80
 msgid "Left"
-msgstr ""
+msgstr "Слева"
 
 #: ../bin/csplit.c:109 ../bin/dbench.c:70 ../bin/dbench.c:79
 msgid "Right"
-msgstr ""
+msgstr "Справа"
 
 #: ../bin/csplit.c:110 ../bin/csplit.c:115
 msgid "Both"
-msgstr ""
+msgstr "Оба"
 
 #: ../bin/csplit.c:113
 msgid "Top"
-msgstr ""
+msgstr "Сверху"
 
 #: ../bin/csplit.c:114
 msgid "Bottom"
-msgstr ""
+msgstr "Снизу"
 
 #: ../bin/cstraigh.c:58
 msgid "Place 1st end point of straight track + Shift -> snap to unconnected endpoint"
@@ -1935,7 +1935,7 @@ msgstr "Прямой трек"
 
 #: ../bin/cstruct.c:72 ../bin/cturnout.c:78 ../bin/doption.c:108 ../bin/doption.c:216
 msgid "Hide"
-msgstr ""
+msgstr "Спрятать"
 
 #: ../bin/cstruct.c:328 ../bin/cstruct.c:355
 msgid "Pier Number"
@@ -1959,11 +1959,11 @@ msgstr ""
 
 #: ../bin/cstruct.c:652
 msgid "Drag to place"
-msgstr ""
+msgstr "Тащите, чтобы разместить"
 
 #: ../bin/cstruct.c:681
 msgid "Drag to rotate"
-msgstr ""
+msgstr "Тащите, чтобы повернуть"
 
 #: ../bin/cstruct.c:702
 msgid "Angle = %0.3f"
@@ -2203,7 +2203,7 @@ msgstr "Прямое выделение"
 
 #: ../bin/ctodesgn.c:468
 msgid "Angle (Degrees)"
-msgstr ""
+msgstr "Угол (градусы)"
 
 #: ../bin/ctodesgn.c:476
 msgid "Curved Section"
@@ -3317,7 +3317,7 @@ msgstr ""
 
 #: ../bin/doption.c:113
 msgid "Track Elevations"
-msgstr ""
+msgstr "Высоты трека"
 
 #: ../bin/doption.c:113
 msgid "Cars"
@@ -4494,7 +4494,7 @@ msgstr "Увеличить/Уменьшить подъёмы"
 
 #: ../bin/misc.c:2348
 msgid "Recompute Elevations"
-msgstr "Пересчтитать подъёмы"
+msgstr "Пересчтитать высоты"
 
 #: ../bin/misc.c:2352
 msgid "Change Scale"
@@ -6069,7 +6069,7 @@ msgstr "Двигать выбранные объекты"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:92
 msgid "Move a label"
-msgstr "Перемещайте подпись"
+msgstr "Переместить подпись"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:93
 msgid "Move selected objects to current layer"
@@ -6777,15 +6777,15 @@ msgstr ""
 
 #: ../../../../build/work/app/bin/bllnhlp.c:324
 msgid "Type of elevation"
-msgstr ""
+msgstr "Тип высоты"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:325
 msgid "Height of End Point"
-msgstr ""
+msgstr "Высота конечной точки"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:326
 msgid "Compute elevation based on neighbors"
-msgstr ""
+msgstr "Вычислить высоту по соседям"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:327
 msgid "Compute grade based on neighbors"
@@ -6793,15 +6793,15 @@ msgstr ""
 
 #: ../../../../build/work/app/bin/bllnhlp.c:328
 msgid "Specify a name for an End-Point"
-msgstr ""
+msgstr "Укажите имя конечной точки"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:330
 msgid "Print parts list"
-msgstr ""
+msgstr "Печатать список частей"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:331 ../../../../build/work/app/bin/bllnhlp.c:431 ../../../../build/work/app/bin/bllnhlp.c:531
 msgid "Invoke the Print Setup dialog"
-msgstr ""
+msgstr "Открыть диалог настроек печати"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:332
 msgid "Save parts list to file"
@@ -6881,11 +6881,11 @@ msgstr ""
 
 #: ../../../../build/work/app/bin/bllnhlp.c:359
 msgid "Layer Name"
-msgstr ""
+msgstr "Название слоя"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:360
 msgid "Color of layer"
-msgstr ""
+msgstr "Цвет слоя"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:361
 msgid "Layer is drawn on Main window"
@@ -7141,7 +7141,7 @@ msgstr ""
 
 #: ../../../../build/work/app/bin/bllnhlp.c:439
 msgid "Profile of specified path"
-msgstr ""
+msgstr "Профиль выбранного пути"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:440
 msgid "Clear the profile"
@@ -7691,7 +7691,7 @@ msgstr "Если кликнуть правой кнопкой мыши на гл
 
 #: ../../../../build/work/app/i18n/custmsg.h:35
 msgid "Holding down the Shift key while you Right-Click will display options for the current command (if any)."
-msgstr ""
+msgstr "Если зажать клавишу Shift когда вы нажимаете правой кнопкой мыши, то отобразится список опций для текущий команды (если существует)."
 
 #: ../../../../build/work/app/i18n/custmsg.h:36
 msgid ""
@@ -10142,11 +10142,11 @@ msgstr ""
 
 #: ../../../../build/work/app/i18n/custmsg.h:634
 msgid "Elevations and Profile"
-msgstr "Подъемы и профиль"
+msgstr "Высоты и профиль"
 
 #: ../../../../build/work/app/i18n/custmsg.h:635
 msgid "Elevations"
-msgstr "Подъемы"
+msgstr "Высоты"
 
 #: ../../../../build/work/app/i18n/custmsg.h:637
 msgid "Misc track commands"
