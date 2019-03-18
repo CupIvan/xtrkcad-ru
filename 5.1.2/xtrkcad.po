@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xtrkcad 5.1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-11 14:36+0300\n"
-"PO-Revision-Date: 2019-03-16 11:14+0300\n"
+"PO-Revision-Date: 2019-03-21 10:48+0300\n"
 "Last-Translator: CupIvan <mail@cupivan.ru>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -1302,7 +1302,7 @@ msgstr ""
 
 #: ../bin/compound.c:522 ../bin/cstruct.c:70 ../bin/cturnout.c:76 ../bin/dcar.c:4082 ../bin/dcar.c:4087 ../bin/dcustmgm.c:51 ../bin/doption.c:114 ../bin/doption.c:115
 msgid "Part No"
-msgstr ""
+msgstr "Артикул"
 
 #: ../bin/compound.c:523
 msgid "# End Pts"
@@ -1351,7 +1351,7 @@ msgstr "Ландшафтный"
 #: ../bin/cprint.c:103 ../bin/cselect.c:2063 ../bin/cselect.c:2067 ../bin/cswitchmotor.c:88 ../bin/cswitchmotor.c:107 ../bin/cswitchmotor.c:218 ../bin/dbench.c:78 ../bin/dease.c:65 ../bin/doption.c:108 ../bin/doption.c:110 ../bin/doption.c:208
 #: ../bin/macro.c:1168
 msgid "Normal"
-msgstr "Нормальный"
+msgstr "Нормальные"
 
 #: ../bin/cprint.c:103 ../bin/cswitchmotor.c:89 ../bin/cswitchmotor.c:108 ../bin/cswitchmotor.c:219 ../bin/ctrain.c:881 ../bin/ctrain.c:1192
 msgid "Reverse"
@@ -1735,7 +1735,7 @@ msgstr "Выравнивание"
 
 #: ../bin/cselect.c:2095 ../bin/misc.c:2159
 msgid "Tunnel"
-msgstr "Туннель"
+msgstr "Тоннель"
 
 #: ../bin/cselect.c:2104
 msgid "Move Description"
@@ -1935,7 +1935,7 @@ msgstr "Прямой трек"
 
 #: ../bin/cstruct.c:72 ../bin/cturnout.c:78 ../bin/doption.c:108 ../bin/doption.c:216
 msgid "Hide"
-msgstr "Спрятать"
+msgstr "Скрыть"
 
 #: ../bin/cstruct.c:328 ../bin/cstruct.c:355
 msgid "Pier Number"
@@ -2075,7 +2075,7 @@ msgstr "Смещение"
 
 #: ../bin/ctodesgn.c:150 ../bin/ctodesgn.c:1767 ../bin/ctodesgn.c:1768
 msgid "Left Description"
-msgstr "Описание слева"
+msgstr "Описание Левая"
 
 #: ../bin/ctodesgn.c:151 ../bin/ctodesgn.c:154
 msgid " #"
@@ -2083,7 +2083,7 @@ msgstr "#"
 
 #: ../bin/ctodesgn.c:153 ../bin/ctodesgn.c:1766
 msgid "Right Description"
-msgstr "Описание справа"
+msgstr "Описание Правая"
 
 #: ../bin/ctodesgn.c:155
 msgid "Roadbed Width"
@@ -2677,7 +2677,7 @@ msgstr ""
 
 #: ../bin/dcar.c:493 ../bin/doption.c:116
 msgid "Other"
-msgstr "Другой"
+msgstr "Другие"
 
 #: ../bin/dcar.c:1096 ../bin/dcar.c:4792
 msgid "N/A"
@@ -3129,7 +3129,7 @@ msgstr "Треки"
 
 #: ../bin/dcontmgm.c:173
 msgid "Are you sure you want to delete the %d control element(s)"
-msgstr ""
+msgstr "Вы уверены, что хотите удалить %d элементов"
 
 #: ../bin/dcontmgm.c:176
 msgid "Control Elements"
@@ -3141,7 +3141,7 @@ msgstr "Управление элементами проекта"
 
 #: ../bin/dcustmgm.c:62
 msgid "Move To"
-msgstr ""
+msgstr "Переместить"
 
 #: ../bin/dcustmgm.c:95
 msgid "Rename"
@@ -3157,15 +3157,15 @@ msgstr ""
 
 #: ../bin/dcustmgm.c:247
 msgid "Move To XTP"
-msgstr ""
+msgstr "Переместить в XTP"
 
 #: ../bin/dcustmgm.c:248
 msgid "Parameter File|*.xtp"
-msgstr ""
+msgstr "Файл параметров|*.xtp"
 
 #: ../bin/dcustmgm.c:358
 msgid "Manage custom designed parts"
-msgstr "Управление своими"
+msgstr "Управление элементами нестандартного дизайна"
 
 #: ../bin/dease.c:65
 msgid "Sharp"
@@ -3185,11 +3185,11 @@ msgstr "Значение"
 
 #: ../bin/dease.c:73 ../bin/tease.c:509
 msgid "R"
-msgstr ""
+msgstr "П"
 
 #: ../bin/dease.c:75 ../bin/tease.c:510
 msgid "L"
-msgstr ""
+msgstr "Л"
 
 #: ../bin/dease.c:240
 msgid "Easement"
@@ -3273,7 +3273,7 @@ msgstr ""
 
 #: ../bin/doption.c:108
 msgid "Dash"
-msgstr ""
+msgstr "Пунктиром"
 
 #: ../bin/doption.c:109
 msgid "All"
@@ -3281,31 +3281,31 @@ msgstr "Все"
 
 #: ../bin/doption.c:110
 msgid "Thick"
-msgstr "Толщина"
+msgstr "Толстые"
 
 #: ../bin/doption.c:110
 msgid "Exception"
-msgstr ""
+msgstr "Выделенные"
 
 #: ../bin/doption.c:111
 msgid "Outline"
-msgstr ""
+msgstr "Контур"
 
 #: ../bin/doption.c:111
 msgid "Solid"
-msgstr ""
+msgstr "Закрашенные"
 
 #: ../bin/doption.c:112
 msgid "Off"
-msgstr "Выкл"
+msgstr "Нет"
 
 #: ../bin/doption.c:112
 msgid "On"
-msgstr ""
+msgstr "Да"
 
 #: ../bin/doption.c:113
 msgid "Track Descriptions"
-msgstr ""
+msgstr "Описание трека"
 
 #: ../bin/doption.c:113
 msgid "Lengths"
@@ -3313,7 +3313,7 @@ msgstr "Длины"
 
 #: ../bin/doption.c:113
 msgid "EndPt Elevations"
-msgstr ""
+msgstr "Крайние точки"
 
 #: ../bin/doption.c:113
 msgid "Track Elevations"
@@ -3321,7 +3321,7 @@ msgstr "Высоты трека"
 
 #: ../bin/doption.c:113
 msgid "Cars"
-msgstr ""
+msgstr "Вагоны"
 
 #: ../bin/doption.c:114 ../bin/doption.c:115
 msgid "Descr"
@@ -3337,19 +3337,19 @@ msgstr "Миникарта"
 
 #: ../bin/doption.c:118
 msgid "Hide Trains On Hidden Track"
-msgstr ""
+msgstr "Не показывать поезда на скрытых треках"
 
 #: ../bin/doption.c:119
 msgid "Zoom keeps lower corner in view"
-msgstr ""
+msgstr "Фиксированный нижний левый угол"
 
 #: ../bin/doption.c:124
 msgid "Color Layers"
-msgstr "Цвета слоёв"
+msgstr "Цветные слои"
 
 #: ../bin/doption.c:125
 msgid "Draw Tunnel"
-msgstr "Рисовать туннели"
+msgstr "Отображение тоннеля"
 
 #: ../bin/doption.c:126
 msgid "Draw EndPts"
@@ -3357,11 +3357,11 @@ msgstr "Рисовать концы"
 
 #: ../bin/doption.c:127
 msgid "Draw Unconnected EndPts"
-msgstr ""
+msgstr "Несоединённые концы"
 
 #: ../bin/doption.c:128
 msgid "Draw Ties"
-msgstr ""
+msgstr "Рисовать шпалы"
 
 #: ../bin/doption.c:129
 msgid "Draw Centers"
@@ -3389,15 +3389,15 @@ msgstr "Размер шрифта"
 
 #: ../bin/doption.c:138
 msgid "Hot Bar Labels"
-msgstr ""
+msgstr "Панель быстрых команд"
 
 #: ../bin/doption.c:139
 msgid "Layout Labels"
-msgstr ""
+msgstr "Слой"
 
 #: ../bin/doption.c:140
 msgid "List Labels"
-msgstr ""
+msgstr "Списки"
 
 #: ../bin/doption.c:143
 msgid "Car Labels"
@@ -3405,11 +3405,11 @@ msgstr "Надписи машин"
 
 #: ../bin/doption.c:144
 msgid "Train Update Delay"
-msgstr ""
+msgstr "Интервал обновления поезда"
 
 #: ../bin/doption.c:172
 msgid "Display Options"
-msgstr ""
+msgstr "Настройки отображения"
 
 #: ../bin/doption.c:173
 msgid "Proto"
@@ -3417,27 +3417,27 @@ msgstr ""
 
 #: ../bin/doption.c:174
 msgid "Proto/Manuf"
-msgstr ""
+msgstr "Proto/Производитель"
 
 #: ../bin/doption.c:175
 msgid "Proto/Manuf/Part Number"
-msgstr ""
+msgstr "Proto/Производитель/Артикул"
 
 #: ../bin/doption.c:176
 msgid "Proto/Manuf/Partno/Item"
-msgstr ""
+msgstr "Proto/Производитель/Артикул/Item"
 
 #: ../bin/doption.c:177
 msgid "Manuf/Proto"
-msgstr ""
+msgstr "Производитель/Proto"
 
 #: ../bin/doption.c:178
 msgid "Manuf/Proto/Part Number"
-msgstr ""
+msgstr "Производитель/Proto/Артикул"
 
 #: ../bin/doption.c:179
 msgid "Manuf/Proto/Partno/Item"
-msgstr ""
+msgstr "Производитель/Proto/Артикул/Item"
 
 #: ../bin/doption.c:210
 msgid "End-Points"
@@ -3457,11 +3457,11 @@ msgstr ""
 
 #: ../bin/doption.c:222
 msgid "Default Command"
-msgstr ""
+msgstr "Команда по-умолчанию"
 
 #: ../bin/doption.c:224
 msgid "Hide Selection Window"
-msgstr ""
+msgstr "Спрятать выбранное окно"
 
 #: ../bin/doption.c:226
 msgid "Right Click"
@@ -3469,7 +3469,7 @@ msgstr "Правый клик"
 
 #: ../bin/doption.c:252
 msgid "Command Options"
-msgstr ""
+msgstr "Опции команд"
 
 #: ../bin/doption.c:275
 msgid "English"
@@ -3481,7 +3481,7 @@ msgstr "Метрическая"
 
 #: ../bin/doption.c:276
 msgid "Polar"
-msgstr ""
+msgstr "Полярная"
 
 #: ../bin/doption.c:276
 msgid "Cartesian"
@@ -4430,7 +4430,7 @@ msgstr "Выбрать проблемные треки"
 
 #: ../bin/misc.c:2240
 msgid "Tu&nnel"
-msgstr "Туннель"
+msgstr "Тоннель"
 
 #: ../bin/misc.c:2241
 msgid "A&bove"
@@ -4582,7 +4582,7 @@ msgstr "Разгруппировать"
 
 #: ../bin/misc.c:2431
 msgid "Custom defined parts..."
-msgstr ""
+msgstr "Нестандартные элементы..."
 
 #: ../bin/misc.c:2432
 msgid "Update Turnouts and Structures"
@@ -6421,7 +6421,7 @@ msgstr ""
 
 #: ../../../../build/work/app/bin/bllnhlp.c:188
 msgid "Manufacturer name"
-msgstr ""
+msgstr "Название производителя"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:191
 msgid "Is the Car a Locomotive?"
@@ -6653,23 +6653,23 @@ msgstr ""
 
 #: ../../../../build/work/app/bin/bllnhlp.c:292
 msgid "Color tracks or other objects by layer"
-msgstr ""
+msgstr "Выделение цветом треков или других объектов на слое"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:293
 msgid "Controls the drawing of hidden tracks"
-msgstr ""
+msgstr "Отображение скрытых треков"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:294
 msgid "Controls the drawing of End-Points"
-msgstr ""
+msgstr "Отображение конечных точек"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:295
 msgid "How to draw track ties"
-msgstr ""
+msgstr "Как рисовать шпалы"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:296
 msgid "Show crosshair at center of curves"
-msgstr ""
+msgstr "Показывать перекрестие в центрах кривых"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:297
 msgid "Drawing scale when to draw tracks with 2 rails"
@@ -6685,7 +6685,7 @@ msgstr ""
 
 #: ../../../../build/work/app/bin/bllnhlp.c:300
 msgid "Enable labels for Turnouts, Flextrack Lengths and Elevations"
-msgstr ""
+msgstr "Отображать надписи для стрелок, гибких треков и подъемов"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:301
 msgid "When to label Turnout, Flextrack Lengths and Elevations"
@@ -6697,7 +6697,7 @@ msgstr ""
 
 #: ../../../../build/work/app/bin/bllnhlp.c:303
 msgid "Label elements on the Hot Bar"
-msgstr ""
+msgstr "Подписи элементов в панели быстрых команд"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:304
 msgid "Label elements on layout"
@@ -6717,15 +6717,15 @@ msgstr ""
 
 #: ../../../../build/work/app/bin/bllnhlp.c:308
 msgid "Don't show trains in tunnels when tunnels are hidden"
-msgstr ""
+msgstr "Не показывать поезда в тоннелях, когда они скрыты"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:309
 msgid "Display unconnected endpoints of track with special marks"
-msgstr ""
+msgstr "Отображение несоединённых концов трека в виде специальных значков"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:310
 msgid "Whether zoom is locked to the bottom left corner or the center point"
-msgstr ""
+msgstr "Фиксация левого нижнего угла либо центральной точки при масштабировании"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:312
 msgid "Width of the lines"
