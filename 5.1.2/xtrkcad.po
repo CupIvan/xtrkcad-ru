@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xtrkcad 5.1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-11 14:36+0300\n"
-"PO-Revision-Date: 2019-03-21 10:48+0300\n"
+"PO-Revision-Date: 2019-03-22 09:22+0300\n"
 "Last-Translator: CupIvan <mail@cupivan.ru>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -1867,7 +1867,7 @@ msgstr "Строки"
 
 #: ../bin/csnap.c:537 ../bin/dease.c:74
 msgid "X"
-msgstr ""
+msgstr "Смещ."
 
 #: ../bin/csnap.c:541
 msgid "A"
@@ -2079,7 +2079,7 @@ msgstr "Описание Левая"
 
 #: ../bin/ctodesgn.c:151 ../bin/ctodesgn.c:154
 msgid " #"
-msgstr "#"
+msgstr " #"
 
 #: ../bin/ctodesgn.c:153 ../bin/ctodesgn.c:1766
 msgid "Right Description"
@@ -3169,15 +3169,15 @@ msgstr "Управление элементами нестандартного �
 
 #: ../bin/dease.c:65
 msgid "Sharp"
-msgstr ""
+msgstr "Острые"
 
 #: ../bin/dease.c:65
 msgid "Broad"
-msgstr ""
+msgstr "Широкие"
 
 #: ../bin/dease.c:65
 msgid "Cornu"
-msgstr ""
+msgstr "Отриц."
 
 #: ../bin/dease.c:72
 msgid "Value"
@@ -3185,15 +3185,15 @@ msgstr "Значение"
 
 #: ../bin/dease.c:73 ../bin/tease.c:509
 msgid "R"
-msgstr "П"
+msgstr "Рад."
 
 #: ../bin/dease.c:75 ../bin/tease.c:510
 msgid "L"
-msgstr "Л"
+msgstr "Дл."
 
 #: ../bin/dease.c:240
 msgid "Easement"
-msgstr ""
+msgstr "Упрощения"
 
 #: ../bin/denum.c:49
 msgid "Prices"
@@ -4765,7 +4765,7 @@ msgstr ""
 
 #: ../bin/tcornu.c:288
 msgid "Radius "
-msgstr "Радиус"
+msgstr "Радиус "
 
 #: ../bin/tcornu.c:296
 msgid "Minimum Radius"
@@ -6753,23 +6753,23 @@ msgstr ""
 
 #: ../../../../build/work/app/bin/bllnhlp.c:318
 msgid "This controls the sharpness of the easement curve"
-msgstr ""
+msgstr "Это значение контролирует остроту упрощённой кривой"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:319
 msgid "Minimum radius"
-msgstr ""
+msgstr "Минимальный радиус"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:320
 msgid "Maximum offset"
-msgstr ""
+msgstr "Максимальное смещение"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:321
 msgid "Easement length"
-msgstr ""
+msgstr "Длина упрощения"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:322
 msgid "These radio buttons are a short-cut for Values of 0.0, 0.5, 1.0 and 2.0.  None turns Easements off"
-msgstr ""
+msgstr "Эти радиокнопки подставляют шаблоны для значений 0.0, 0.5, 1.0 и 2.0. Нет - выключает упрощения"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:323
 msgid "Complete easement selection"
@@ -10074,7 +10074,7 @@ msgstr "Изменение треков"
 
 #: ../../../../build/work/app/i18n/custmsg.h:616
 msgid "Modifying end points "
-msgstr "Изменение конечных точек"
+msgstr "Изменение конечных точек "
 
 #: ../../../../build/work/app/i18n/custmsg.h:617
 msgid "Extending"
