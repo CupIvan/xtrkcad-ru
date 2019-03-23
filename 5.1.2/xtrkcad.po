@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xtrkcad 5.1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-11 14:36+0300\n"
-"PO-Revision-Date: 2019-03-22 09:22+0300\n"
+"PO-Revision-Date: 2019-03-23 12:56+0300\n"
 "Last-Translator: CupIvan <mail@cupivan.ru>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -3485,7 +3485,7 @@ msgstr "Полярная"
 
 #: ../bin/doption.c:276
 msgid "Cartesian"
-msgstr ""
+msgstr "Прямоугольная"
 
 #: ../bin/doption.c:277
 msgid "Balloon Help"
@@ -3493,11 +3493,11 @@ msgstr "Всплывающая подсказка"
 
 #: ../bin/doption.c:278
 msgid "Load Last Layout"
-msgstr ""
+msgstr "загрузить последний проект"
 
 #: ../bin/doption.c:278
 msgid "Start New Layout"
-msgstr ""
+msgstr "загрузить новый проект"
 
 #: ../bin/doption.c:281
 msgid "Angles"
@@ -3509,11 +3509,11 @@ msgstr "Система мер"
 
 #: ../bin/doption.c:284
 msgid "Length Format"
-msgstr ""
+msgstr "Формат длины"
 
 #: ../bin/doption.c:285
 msgid "Min Track Length"
-msgstr ""
+msgstr "Минимальная длина трека"
 
 #: ../bin/doption.c:286
 msgid "Connection Distance"
@@ -3533,11 +3533,11 @@ msgstr ""
 
 #: ../bin/doption.c:291
 msgid "Drag Distance"
-msgstr ""
+msgstr "Длина перетаскивания"
 
 #: ../bin/doption.c:292
 msgid "Drag Timeout"
-msgstr ""
+msgstr "Время перетаскивания"
 
 #: ../bin/doption.c:293
 msgid "Min Grid Spacing"
@@ -3549,7 +3549,7 @@ msgstr ""
 
 #: ../bin/doption.c:295
 msgid "On Program Startup"
-msgstr ""
+msgstr "При старте программы"
 
 #: ../bin/doption.c:305
 msgid "999.999999"
@@ -3661,7 +3661,7 @@ msgstr "999.9м"
 
 #: ../bin/doption.c:450
 msgid "Preferences"
-msgstr "Настройки"
+msgstr "Настройки предпочтений"
 
 #: ../bin/doption.c:489
 msgid "Marker"
@@ -6985,11 +6985,11 @@ msgstr ""
 
 #: ../../../../build/work/app/bin/bllnhlp.c:391
 msgid "How to display length measurements"
-msgstr ""
+msgstr "Как отображать единицы измерения"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:392
 msgid "Do not create tracks to be shorter than this value"
-msgstr ""
+msgstr "Не создавать треки короче этого значения"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:393
 msgid "Maximum distance between connected end points"
@@ -7009,15 +7009,15 @@ msgstr ""
 
 #: ../../../../build/work/app/bin/bllnhlp.c:397
 msgid "Enable/Disable balloon popup help windows"
-msgstr ""
+msgstr "Включить или выключить всплывающую подсказку"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:398
 msgid "How far you can move the mouse before its considered a drag"
-msgstr ""
+msgstr "Как далеко вы должны передвинуть мышь, чтобы начать перетаскивание"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:399
 msgid "How long you can hold a mouse button down before its considered a drag"
-msgstr ""
+msgstr "Как долго вы должны держать кнопку мыши, чтобы начать перетаскивание"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:400
 msgid "Minimum distance (in pixels) between grid lines/ticks"
@@ -7029,7 +7029,7 @@ msgstr ""
 
 #: ../../../../build/work/app/bin/bllnhlp.c:402
 msgid "Resume work on last layout or start with new layout"
-msgstr ""
+msgstr "Возобновить работу последнего проекта или начать с чистого листа"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:404
 msgid "Updated cost of current selected item"
