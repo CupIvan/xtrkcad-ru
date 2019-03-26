@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xtrkcad 5.1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-11 14:36+0300\n"
-"PO-Revision-Date: 2019-03-23 12:56+0300\n"
+"PO-Revision-Date: 2019-03-26 09:12+0300\n"
 "Last-Translator: CupIvan <mail@cupivan.ru>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -650,7 +650,7 @@ msgstr "Окружность по касательной"
 
 #: ../bin/ccurve.c:800
 msgid "Circle from Center"
-msgstr "Окружность из центра"
+msgstr "Окружность к центру"
 
 #: ../bin/cdraw.c:106
 msgid "Font Size must be > 0"
@@ -900,15 +900,15 @@ msgstr "Касательная к окружности"
 
 #: ../bin/cdraw.c:1198
 msgid "Draw Circle from Tangent"
-msgstr "Рисовать окружность от касательной"
+msgstr "Окружность из центра"
 
 #: ../bin/cdraw.c:1199
 msgid "Circle Center"
-msgstr "Окружность от центра"
+msgstr "Центр окружности"
 
 #: ../bin/cdraw.c:1199
 msgid "Draw Circle from Center"
-msgstr "Рисовать окружность от центра"
+msgstr "Окружность от края"
 
 #: ../bin/cdraw.c:1201
 msgid "Circle Filled Tangent"
@@ -916,15 +916,15 @@ msgstr "Круг от касательной"
 
 #: ../bin/cdraw.c:1201
 msgid "Draw Filled Circle from Tangent"
-msgstr "Рисовать круг от касательной"
+msgstr "Круг из центра"
 
 #: ../bin/cdraw.c:1202
 msgid "Circle Filled Center"
-msgstr "Круг от центра"
+msgstr "Круг к центру"
 
 #: ../bin/cdraw.c:1202
 msgid "Draw Filled Circle from Center"
-msgstr "Рисовать круг от центра"
+msgstr "Круг от края"
 
 #: ../bin/cdraw.c:1204
 msgid "Draw Box"
@@ -4602,7 +4602,7 @@ msgstr "Стоимость компонентов..."
 
 #: ../bin/misc.c:2523
 msgid "Program was not terminated properly. Do you want to resume working on the previous trackplan?"
-msgstr ""
+msgstr "Программа была завершена некорректно. Вы хотите продолжить работать с предыдущим проектом?"
 
 #: ../bin/misc.c:2524
 msgid "Resume"
@@ -5901,7 +5901,7 @@ msgstr "Добавить окружность"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:49
 msgid "Draw a circle line from center"
-msgstr "Нарисовать окружность из центра"
+msgstr "Нарисовать окружность к центру"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:50
 msgid "Draw a fixed radius circle line"
@@ -5909,7 +5909,7 @@ msgstr "Нарисовать фиксированный радиус окруж�
 
 #: ../../../../build/work/app/bin/bllnhlp.c:51
 msgid "Draw a circle line from tangent"
-msgstr "Нарисовать окружность по касательной"
+msgstr "Нарисовать окружность к краю"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:52
 msgid "Set Curve drawing command"
@@ -5953,15 +5953,15 @@ msgstr "Создать закрашенный круг"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:62
 msgid "Draw a filled circle from center"
-msgstr "Нарисовать закрашенный круг от центра"
+msgstr "Нарисовать закрашенный круг к центру"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:63
 msgid "Draw a fixed radius filled circle"
-msgstr "Нарисовать закрашенный круг с фиксированным радиусом"
+msgstr "Нарисовать закрашенный круг с заданным радиусом"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:64
 msgid "Draw a filled circle from tangent"
-msgstr "Нарисовать закрашенный круг по касательной"
+msgstr "Нарисовать закрашенный круг к краю"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:65
 msgid "Create a filled polygon"
