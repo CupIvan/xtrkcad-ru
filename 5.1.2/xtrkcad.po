@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xtrkcad 5.1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-11 14:36+0300\n"
-"PO-Revision-Date: 2019-03-26 09:12+0300\n"
+"PO-Revision-Date: 2019-03-27 11:05+0300\n"
 "Last-Translator: CupIvan <mail@cupivan.ru>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -3241,7 +3241,7 @@ msgstr "На карте"
 
 #: ../bin/dlayer.c:455
 msgid "Personal Preferences"
-msgstr "Персональные предпочтения"
+msgstr "Персональные настройки"
 
 #: ../bin/dlayer.c:457 ../bin/macro.c:1181
 msgid "Save"
@@ -6877,7 +6877,7 @@ msgstr ""
 
 #: ../../../../build/work/app/bin/bllnhlp.c:358
 msgid "Layer list"
-msgstr ""
+msgstr "Список слоёв"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:359
 msgid "Layer Name"
@@ -6889,15 +6889,15 @@ msgstr "Цвет слоя"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:361
 msgid "Layer is drawn on Main window"
-msgstr ""
+msgstr "Слой отрисовывается в главном окне"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:362
 msgid "Layer cannot be changed"
-msgstr ""
+msgstr "Слой не может быть изменён"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:363
 msgid "Layer is drawn on Map window"
-msgstr ""
+msgstr "Слой отрисовывается на миникарте"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:364
 msgid "Number of layer buttons to show"
@@ -6909,15 +6909,15 @@ msgstr "Кол-во объектов в этом слое"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:367
 msgid "Load layer configuration from default"
-msgstr ""
+msgstr "Загрузить настройки слоя из основных"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:368
 msgid "Save current layer configuration as default"
-msgstr ""
+msgstr "Сохранить текущие настройки слоя как основные"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:369
 msgid "Overwrite layer configuration with system default values"
-msgstr ""
+msgstr "Перезаписать настроки слоя системными значениями по-умолчанию"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:370 ../../../../build/work/app/bin/bllnhlp.c:371
 msgid "Specifies the size of the room (in inches or centimeters)"
