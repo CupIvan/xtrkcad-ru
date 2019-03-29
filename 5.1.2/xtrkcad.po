@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xtrkcad 5.1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-11 14:36+0300\n"
-"PO-Revision-Date: 2019-03-28 16:46+0300\n"
+"PO-Revision-Date: 2019-03-29 09:36+0300\n"
 "Last-Translator: CupIvan <mail@cupivan.ru>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -1318,7 +1318,7 @@ msgstr "Стрелка"
 
 #: ../bin/compound.c:760
 msgid "Sectional Track"
-msgstr ""
+msgstr "Составной трек"
 
 #: ../bin/compound.c:764
 msgid "%s (%d) Layer= %d %s"
@@ -1419,7 +1419,7 @@ msgstr "Ширина"
 
 #: ../bin/cprint.c:140 ../bin/cturntbl.c:245
 msgid "Origin: X"
-msgstr ""
+msgstr "Координата: X"
 
 #: ../bin/cprint.c:141 ../bin/csnap.c:539
 msgid "Y"
@@ -4992,7 +4992,7 @@ msgstr "Пробел"
 
 #: ../../../../build/work/app/help/messages.h:9
 msgid "MSG_CANT_PLACE_FROGPOINTS\tFrog|Points cannot be placed on a turnout, circle or helix.\tA %s cannot be placed on a turnout, circle or helix."
-msgstr ""
+msgstr "MSG_CANT_PLACE_FROGPOINTS\tFrog|Points cannot be placed on a turnout, circle or helix.\t%s не может быть помещена на стрелку, круг или спираль."
 
 #: ../../../../build/work/app/help/messages.h:10
 msgid "MSG_SEL_TRK_FROZEN\tA frozen layer contains selected track. Command cannot be executed."
@@ -6101,7 +6101,7 @@ msgstr "Окно свойств"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:101
 msgid "Display prices of turnouts, sectional tracks and structures"
-msgstr ""
+msgstr "Показать цены стрелок, составных треков и структур"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:102
 msgid "Print the layout"
@@ -6133,7 +6133,7 @@ msgstr "Повернуть выбранные объекты"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:111
 msgid "Show a ruler"
-msgstr "Показывать линейку"
+msgstr "Добавить линейку"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:112
 msgid "Select objects"
@@ -6161,11 +6161,11 @@ msgstr "Выбрать проблемные (несоединённые) час�
 
 #: ../../../../build/work/app/bin/bllnhlp.c:118
 msgid "Create a sensor (ie. a occupancy detector or a toggle switch)"
-msgstr ""
+msgstr "Создать сенсор (т.е. детектор движения или переключатель)"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:119
 msgid "Create a signal for train control"
-msgstr ""
+msgstr "Добавить сигнал для управления поездом"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:120
 msgid "Choose which commands are sticky"
@@ -6177,7 +6177,7 @@ msgstr "Добавить прямой трек"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:122
 msgid "Place a structure on the layout"
-msgstr ""
+msgstr "Разместить структуру на слое"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:123
 msgid "Create a switchmotor for turnout control"
@@ -6193,7 +6193,7 @@ msgstr "Написать текст на рабочую область"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:126 ../../../../build/work/app/bin/bllnhlp.c:487
 msgid "Controls the size of the entered text"
-msgstr ""
+msgstr "Устанавливает размер вводимого текста"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:127
 msgid "Tip of the Day window"
@@ -6221,39 +6221,39 @@ msgstr "Спрятать/Показать треки"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:133
 msgid "Place a turnout or sectional track"
-msgstr ""
+msgstr "Разместить стрелку или составной трек"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:134
 msgid "Create a new turnout definition"
-msgstr ""
+msgstr "Создать новую стрелку"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:135
 msgid "Place a turntable"
-msgstr ""
+msgstr "Установить разворотный рельс"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:136
 msgid "Updates old source files with 3 part titles"
-msgstr ""
+msgstr "Обновить старые файлы тремя новыми заголовками"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:138
 msgid "Ungroup objects"
-msgstr ""
+msgstr "Разгруппировать объекты"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:139
 msgid "Draw tracks with thin lines"
-msgstr ""
+msgstr "Рисовать треки тонкими линиями"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:140
 msgid "Draw tracks with medium lines"
-msgstr ""
+msgstr "Рисовать треки средними линиями"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:141
 msgid "Draw tracks with thick lines"
-msgstr ""
+msgstr "Рисовать треки толстыми линиями"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:142
 msgid "Change drawing scale"
-msgstr ""
+msgstr "Изменить масштаб рисования"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:143 ../../../../build/work/app/bin/bllnhlp.c:155
 msgid "Zoom in"
