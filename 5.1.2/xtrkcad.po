@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xtrkcad 5.1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-11 14:36+0300\n"
-"PO-Revision-Date: 2019-03-29 09:36+0300\n"
+"PO-Revision-Date: 2019-04-03 07:56+0300\n"
 "Last-Translator: CupIvan <mail@cupivan.ru>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -688,7 +688,7 @@ msgstr "Цвет"
 
 #: ../bin/cdraw.c:239 ../bin/cdraw.c:474 ../bin/cdraw.c:969
 msgid "Lumber"
-msgstr "Материалы"
+msgstr "Древесина"
 
 #: ../bin/cdraw.c:240
 msgid "Orientation"
@@ -788,7 +788,7 @@ msgstr "Большой"
 
 #: ../bin/cdraw.c:952 ../bin/cdraw.c:954 ../bin/cdraw.c:1055
 msgid "Lumber Type"
-msgstr ""
+msgstr "Тип древесины"
 
 #: ../bin/cdraw.c:967
 msgid "Straight"
@@ -848,15 +848,15 @@ msgstr "Рисовать размер"
 
 #: ../bin/cdraw.c:1188 ../../../../build/work/app/i18n/custmsg.h:649
 msgid "Benchwork"
-msgstr ""
+msgstr "Доска"
 
 #: ../bin/cdraw.c:1188
 msgid "Draw Benchwork"
-msgstr ""
+msgstr "Рисовать доску"
 
 #: ../bin/cdraw.c:1189
 msgid "Draw Table Edge"
-msgstr ""
+msgstr "Рисовать край стола"
 
 #: ../bin/cdraw.c:1191
 msgid "Curve End"
@@ -2459,11 +2459,11 @@ msgstr ""
 
 #: ../bin/cturntbl.c:849
 msgid "Create Turntable"
-msgstr ""
+msgstr "Создать разворотный рельс"
 
 #: ../bin/cundo.c:166
 msgid "Undo Trace"
-msgstr ""
+msgstr "Отменить трассировку"
 
 #: ../bin/cundo.c:536
 msgid "Undo: %s"
@@ -2499,7 +2499,7 @@ msgstr "%s Импорт файлов|*.%sti"
 
 #: ../bin/custom.c:184
 msgid "Data Exchange Format Files|*.dxf"
-msgstr ""
+msgstr "Файлы формат обмена данными|*.dxf"
 
 #: ../bin/custom.c:188
 msgid "%s Record Files|*.%str"
@@ -2519,19 +2519,19 @@ msgstr "%s Файлы запчастей|*.txt"
 
 #: ../bin/dbench.c:43
 msgid " L-Girder"
-msgstr ""
+msgstr "L-профиль"
 
 #: ../bin/dbench.c:43
 msgid " T-Girder"
-msgstr ""
+msgstr "T-профиль"
 
 #: ../bin/dbench.c:66
 msgid "On Edge"
-msgstr ""
+msgstr "На ребро"
 
 #: ../bin/dbench.c:67
 msgid "Flat"
-msgstr ""
+msgstr "Плашмя"
 
 #: ../bin/dbench.c:71
 msgid "Left-Down"
@@ -5885,7 +5885,7 @@ msgstr "Изменить параметры отображения"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:45
 msgid "Create benchwork"
-msgstr ""
+msgstr "Создать доску"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:46
 msgid "Create a box"
@@ -5985,7 +5985,7 @@ msgstr ""
 
 #: ../../../../build/work/app/bin/bllnhlp.c:70
 msgid "Draw table edge"
-msgstr ""
+msgstr "Рисовать край стола"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:71
 msgid "Easement menu"
@@ -6737,15 +6737,15 @@ msgstr "Цвет этих линий"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:314
 msgid "List of types of Lumber"
-msgstr ""
+msgstr "Список типов древесины"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:315
 msgid "Color of Benchwork"
-msgstr ""
+msgstr "Цвет доски"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:316
 msgid "Orientation of Benchwork"
-msgstr ""
+msgstr "Ориентация доски"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:317
 msgid "Size of Dimension Arrows"
