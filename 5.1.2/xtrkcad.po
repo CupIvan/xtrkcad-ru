@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xtrkcad 5.1.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-12-11 14:36+0300\n"
-"PO-Revision-Date: 2019-04-03 07:56+0300\n"
+"PO-Revision-Date: 2019-04-04 10:37+0300\n"
 "Last-Translator: CupIvan <mail@cupivan.ru>\n"
 "Language-Team: \n"
 "Language: ru_RU\n"
@@ -478,7 +478,7 @@ msgstr ""
 
 #: ../bin/ccurve.c:175
 msgid "Drag along curve start"
-msgstr ""
+msgstr "Тащите по касательной к первому концу"
 
 #: ../bin/ccurve.c:185
 msgid "End Locked: Drag out to center"
@@ -494,7 +494,7 @@ msgstr ""
 
 #: ../bin/ccurve.c:222
 msgid "Drag out curve start - Angle=%0.3f"
-msgstr ""
+msgstr "Тащите до начала скругления - Угол=%0.3f"
 
 #: ../bin/ccurve.c:226
 msgid "Tangent Locked: Drag out center - Radius=%s Angle=%0.3f"
@@ -502,7 +502,7 @@ msgstr ""
 
 #: ../bin/ccurve.c:227
 msgid "Drag out center - Radius=%s Angle=%0.3f"
-msgstr ""
+msgstr "Тащите к центру - Радиус=%s Угол=%0.3f"
 
 #: ../bin/ccurve.c:233
 msgid "Radius=%s Angle=%0.3f"
@@ -514,7 +514,7 @@ msgstr "Длина=%s Угол=%0.3f"
 
 #: ../bin/ccurve.c:289 ../bin/ccurve.c:397 ../bin/drawgeom.c:442
 msgid "Drag on Red arrows to adjust curve"
-msgstr "Тащите на красные стрелки для изменения кривой"
+msgstr "Тащите за красные стрелки для изменения кривой"
 
 #: ../bin/ccurve.c:352 ../bin/cjoin.c:216 ../bin/cmodify.c:370 ../bin/cturntbl.c:569
 msgid "Straight Track: Length=%s Angle=%0.3f"
@@ -626,7 +626,7 @@ msgstr "Кривая из центра"
 
 #: ../bin/ccurve.c:793
 msgid "Curve from Chord"
-msgstr "Кривая по хорде"
+msgstr "По хорде"
 
 #: ../bin/ccurve.c:794 ../bin/cdraw.c:1195
 msgid "Bezier Curve"
@@ -744,7 +744,7 @@ msgstr "Окружность"
 
 #: ../bin/cdraw.c:502
 msgid "Curved Line"
-msgstr "Кривая"
+msgstr "Кривая линия"
 
 #: ../bin/cdraw.c:511 ../bin/cdraw.c:980 ../bin/cdraw.c:981 ../bin/cdraw.c:982
 msgid "Filled Circle"
@@ -800,7 +800,7 @@ msgstr ""
 
 #: ../bin/cdraw.c:971 ../bin/cdraw.c:972 ../bin/cdraw.c:973 ../bin/cdraw.c:974
 msgid "Curved"
-msgstr "Изогнутый"
+msgstr "Кривая"
 
 #: ../bin/cdraw.c:978 ../bin/cdraw.c:1204
 msgid "Box"
@@ -820,7 +820,7 @@ msgstr "Кривая Безье"
 
 #: ../bin/cdraw.c:1030
 msgid "%s Line Width"
-msgstr "%s ширина линии"
+msgstr "%s, ширина"
 
 #: ../bin/cdraw.c:1044
 msgid "%s Color"
@@ -840,11 +840,11 @@ msgstr "Прямая"
 
 #: ../bin/cdraw.c:1186
 msgid "Draw Line"
-msgstr "Рисовать прямую"
+msgstr "Прямая"
 
 #: ../bin/cdraw.c:1187
 msgid "Draw Dimension Line"
-msgstr "Рисовать размер"
+msgstr "Выноска с размером"
 
 #: ../bin/cdraw.c:1188 ../../../../build/work/app/i18n/custmsg.h:649
 msgid "Benchwork"
@@ -852,11 +852,11 @@ msgstr "Доска"
 
 #: ../bin/cdraw.c:1188
 msgid "Draw Benchwork"
-msgstr "Рисовать доску"
+msgstr "Доска"
 
 #: ../bin/cdraw.c:1189
 msgid "Draw Table Edge"
-msgstr "Рисовать край стола"
+msgstr "Край стола"
 
 #: ../bin/cdraw.c:1191
 msgid "Curve End"
@@ -864,7 +864,7 @@ msgstr "Конец кривой"
 
 #: ../bin/cdraw.c:1191
 msgid "Draw Curve from End"
-msgstr "Рисовать кривую от конца"
+msgstr "От касательной"
 
 #: ../bin/cdraw.c:1192
 msgid "Curve Tangent"
@@ -872,7 +872,7 @@ msgstr "Тангенс кривой"
 
 #: ../bin/cdraw.c:1192
 msgid "Draw Curve from Tangent"
-msgstr "Рисовать кривую от касательной"
+msgstr "По окружности от края"
 
 #: ../bin/cdraw.c:1193
 msgid "Curve Center"
@@ -880,7 +880,7 @@ msgstr "Центр кривой"
 
 #: ../bin/cdraw.c:1193
 msgid "Draw Curve from Center"
-msgstr "Рисовать кривую от центра"
+msgstr "По окружности от центра"
 
 #: ../bin/cdraw.c:1194
 msgid "Curve Chord"
@@ -888,11 +888,11 @@ msgstr "Хорда кривой"
 
 #: ../bin/cdraw.c:1194
 msgid "Draw Curve from Chord"
-msgstr "Рисовать кривую от хорды"
+msgstr "Кривая по хорде"
 
 #: ../bin/cdraw.c:1195
 msgid "Draw Bezier"
-msgstr "Рисовать кривую Безье"
+msgstr "Кривая Безье"
 
 #: ../bin/cdraw.c:1198
 msgid "Circle Tangent"
@@ -928,11 +928,11 @@ msgstr "Круг от края"
 
 #: ../bin/cdraw.c:1204
 msgid "Draw Box"
-msgstr "Рисовать прямоугольник"
+msgstr "Прямоугольник"
 
 #: ../bin/cdraw.c:1205
 msgid "Draw Filled Box"
-msgstr "Рисовать закрашенный прямоугольник"
+msgstr "Закрашенный прямоугольник"
 
 #: ../bin/cdraw.c:1206
 msgid "Poly Line"
@@ -3833,7 +3833,7 @@ msgstr "Прямая линия: Длина=%s Угол=%0.3f"
 
 #: ../bin/drawgeom.c:343
 msgid "Curved Line: Radius=%s Angle=%0.3f Length=%s"
-msgstr ""
+msgstr "Кривая линия: Радиус=%s Угол=%0.3f Длина=%s"
 
 #: ../bin/drawgeom.c:358
 msgid "Radius = %s"
@@ -5913,27 +5913,27 @@ msgstr "Нарисовать окружность к краю"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:52
 msgid "Set Curve drawing command"
-msgstr ""
+msgstr "Установить команду рисования Кривой"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:53
 msgid "Create a curved line"
-msgstr "Создать изогнутую линию"
+msgstr "Создать кривую линию"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:54
 msgid "Create a curved line from End"
-msgstr "Создать изогнутую линию от точки"
+msgstr "Создать кривую линию от касательной"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:55
 msgid "Create a curved line from center"
-msgstr "Создать изогнутую линию от центра"
+msgstr "Создать кривую линию от центра"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:56
 msgid "Create a curved line from chord"
-msgstr "Создать изогнутую линию по хорде"
+msgstr "Создать кривую линию по хорде"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:57
 msgid "Create a curved line from tangent"
-msgstr "Создать изогнутую линию по касательной"
+msgstr "Создать кривую линию от края"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:58
 msgid "Create a Bezier line"
@@ -6729,11 +6729,11 @@ msgstr "Фиксация левого нижнего угла либо цент�
 
 #: ../../../../build/work/app/bin/bllnhlp.c:312
 msgid "Width of the lines"
-msgstr "Ширина этих линий"
+msgstr "Ширина этой линий"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:313
 msgid "Color of the lines"
-msgstr "Цвет этих линий"
+msgstr "Цвет этой линий"
 
 #: ../../../../build/work/app/bin/bllnhlp.c:314
 msgid "List of types of Lumber"
